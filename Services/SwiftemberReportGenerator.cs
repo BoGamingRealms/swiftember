@@ -119,13 +119,13 @@ public class SwiftemberReportGenerator
                         table.ColumnsDefinition(columns =>
                         {
                             columns.ConstantColumn(16);   // Pos / Effort Rank
-                            columns.RelativeColumn(1.8f); // Athlete Name (reduced by 50%)
-                            columns.ConstantColumn(56);   // Target
-                            columns.ConstantColumn(56);   // Distance
-                            columns.ConstantColumn(50);   // Target %
-                            columns.ConstantColumn(74);   // Pacing Status
+                            columns.ConstantColumn(105);  // Athlete Name (compact fixed width)
+                            columns.ConstantColumn(58);   // Target
+                            columns.ConstantColumn(58);   // Distance
+                            columns.ConstantColumn(52);   // Target %
+                            columns.RelativeColumn(1.0f); // Pacing Status
                             columns.ConstantColumn(32);   // Runs
-                            columns.ConstantColumn(52);   // Longest
+                            columns.ConstantColumn(54);   // Longest
                             columns.ConstantColumn(46);   // Elev
                         });
 
@@ -175,11 +175,11 @@ public class SwiftemberReportGenerator
                             table.ColumnsDefinition(columns =>
                             {
                                 columns.ConstantColumn(16);   // Pos / Effort Rank
-                                columns.RelativeColumn(1.8f); // Athlete Name (reduced by 50%)
-                                columns.ConstantColumn(56);   // Target
-                                columns.ConstantColumn(58);   // Total Dist
-                                columns.ConstantColumn(50);   // Target %
-                                columns.ConstantColumn(74);   // Status
+                                columns.ConstantColumn(105);  // Athlete Name (compact fixed width)
+                                columns.ConstantColumn(58);   // Target
+                                columns.ConstantColumn(60);   // Total Dist
+                                columns.ConstantColumn(52);   // Target %
+                                columns.RelativeColumn(1.0f); // Status
                                 columns.ConstantColumn(36);   // Weeks
                                 columns.ConstantColumn(32);   // Runs
                                 columns.ConstantColumn(46);   // Elev
