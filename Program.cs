@@ -158,7 +158,8 @@ class Program
             currentWeek.ClubName = clubName;
         }
 
-        SwiftemberRankingEngine.ApplyWeeklyPoints(currentWeek);
+        var targetService = new MemberTargetService();
+        SwiftemberRankingEngine.ApplyWeeklyMetricsAndEffort(currentWeek, targetService);
 
         Console.WriteLine($"Club:                            {currentWeek.ClubName}");
         Console.WriteLine($"Challenge Week:                  Week {currentWeek.WeekNumber}");
@@ -172,20 +173,23 @@ class Program
         historyService.SaveWeek(currentWeek);
 
         var allWeeks = historyService.LoadAllWeeks();
-        var overallStandings = SwiftemberRankingEngine.ComputeOverallStandings(allWeeks);
+        var overallStandings = SwiftemberRankingEngine.ComputeOverallStandings(allWeeks, targetService);
 
-        Console.WriteLine("-----------------------------------------------------------------------------------------");
-        Console.WriteLine("Pos | Athlete Name              | Distance  | Runs | Longest  | Elev (m) | Points");
+        Console.WriteLine("=========================================================================================");
+        Console.WriteLine("                      EFFORT & TARGET COMPLETION LEADERBOARD                             ");
+        Console.WriteLine("=========================================================================================");
+        Console.WriteLine("Effort | Dist | Athlete Name              | Target | Distance | Goal % | Status          | Runs");
         Console.WriteLine("-----------------------------------------------------------------------------------------");
 
-        foreach (var a in currentWeek.Athletes.Take(10))
+        var sortedByEffort = currentWeek.Athletes.OrderBy(a => a.EffortRank).ToList();
+        foreach (var a in sortedByEffort.Take(15))
         {
-            Console.WriteLine($"{a.Rank,3} | {a.AthleteName,-25} | {a.DistanceKm,6:N1} km | {a.ActivitiesCount,4} | {a.LongestActivityKm,5:N1} km | {a.ElevationGainM,8:N0} | {a.Points,6:N0}");
+            Console.WriteLine($"{a.EffortRank,6} | {a.Rank,4} | {a.AthleteName,-25} | {a.MonthlyTargetKm,4:N0}km | {a.DistanceKm,6:N1}km | {a.TargetProgressPct,5:F1}% | {a.PacingStatus,-15} | {a.ActivitiesCount,4}");
         }
 
-        if (currentWeek.Athletes.Count > 10)
+        if (sortedByEffort.Count > 15)
         {
-            Console.WriteLine($"... and {currentWeek.Athletes.Count - 10} more athletes.");
+            Console.WriteLine($"... and {sortedByEffort.Count - 15} more athletes.");
         }
         Console.WriteLine("-----------------------------------------------------------------------------------------\n");
 

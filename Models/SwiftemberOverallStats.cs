@@ -15,4 +15,11 @@ public class SwiftemberOverallStats
     public int ActivityRank { get; set; }
     public double OverallPoints { get; set; }
     public Dictionary<int, double> WeeklyDistanceKm { get; set; } = new();
+
+    // Monthly Target & Effort Metrics
+    public double MonthlyTargetKm { get; set; } = 100.0;
+    public double TargetProgressPct => (MonthlyTargetKm > 0) ? (TotalDistanceKm / MonthlyTargetKm) * 100.0 : 0.0;
+    public int EffortRank { get; set; }
+    public double EffortScore { get; set; }
+    public string PacingStatus { get; set; } = "On Track";
 }
