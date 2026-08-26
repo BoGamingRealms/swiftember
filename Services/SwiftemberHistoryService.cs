@@ -69,13 +69,30 @@ public class SwiftemberHistoryService
 
         allWeeks = allWeeks.OrderBy(w => w.WeekNumber).ToList();
 
-        string? dir = Path.GetDirectoryName(_historyPath);
-        if (!string.IsNullOrEmpty(dir))
-        {
-            Directory.CreateDirectory(dir);
-        }
-
         string json = JsonSerializer.Serialize(allWeeks, new JsonSerializerOptions { WriteIndented = true });
+
+        // 1. Write to runtime path
+        string? dir = Path.GetDirectoryName(_historyPath);
+        if (!string.IsNullOrEmpty(dir)) Directory.CreateDirectory(dir);
         File.WriteAllText(_historyPath, json);
+
+        // 2. Also write to project workspace data folder
+        string projectDataDir = Path.Combine(Directory.GetCurrentDirectory(), "data");
+        if (Directory.Exists(projectDataDir))
+        {
+            string projectHistory = Path.Combine(projectDataDir, "swiftember_history.json");
+            File.WriteAllText(projectHistory, json);
+        }
+    }
+
+    public void ResetHistory()
+    {
+        var empty = new List<WeeklyLeaderboard>();
+        string json = JsonSerializer.Serialize(empty, new JsonSerializerOptions { WriteIndented = true });
+
+        if (File.Exists(_historyPath)) File.WriteAllText(_historyPath, json);
+
+        string projectHistory = Path.Combine(Directory.GetCurrentDirectory(), "data", "swiftember_history.json");
+        if (File.Exists(projectHistory)) File.WriteAllText(projectHistory, json);
     }
 }

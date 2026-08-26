@@ -98,6 +98,13 @@ class Program
             {
                 generatePdf = false;
             }
+            else if (arg.Equals("--reset", StringComparison.OrdinalIgnoreCase))
+            {
+                var hService = new SwiftemberHistoryService();
+                hService.ResetHistory();
+                Console.WriteLine("[Success] Swiftember history reset for a new challenge month!");
+                return;
+            }
             else if (!arg.StartsWith("-"))
             {
                 inputFile = arg;
