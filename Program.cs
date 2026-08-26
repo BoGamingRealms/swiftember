@@ -178,13 +178,13 @@ class Program
         Console.WriteLine("=========================================================================================");
         Console.WriteLine("                      EFFORT & TARGET COMPLETION LEADERBOARD                             ");
         Console.WriteLine("=========================================================================================");
-        Console.WriteLine("Effort | Dist | Athlete Name              | Target | Distance | Goal % | Status          | Runs");
+        Console.WriteLine("Pos | Dist | Athlete Name              | Target | Distance | Goal % | Status          | Runs");
         Console.WriteLine("-----------------------------------------------------------------------------------------");
 
         var sortedByEffort = currentWeek.Athletes.OrderBy(a => a.EffortRank).ToList();
         foreach (var a in sortedByEffort.Take(15))
         {
-            Console.WriteLine($"{a.EffortRank,6} | {a.Rank,4} | {a.AthleteName,-25} | {a.MonthlyTargetKm,4:N0}km | {a.DistanceKm,6:N1}km | {a.TargetProgressPct,5:F1}% | {a.PacingStatus,-15} | {a.ActivitiesCount,4}");
+            Console.WriteLine($"{a.EffortRank,3} | {a.Rank,4} | {a.AthleteName,-25} | {a.MonthlyTargetKm,4:N0}km | {a.DistanceKm,6:N1}km | {a.TargetProgressPct,5:F1}% | {a.PacingStatus,-15} | {a.ActivitiesCount,4}");
         }
 
         if (sortedByEffort.Count > 15)

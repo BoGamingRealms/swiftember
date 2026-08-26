@@ -118,8 +118,8 @@ public class SwiftemberReportGenerator
                     {
                         table.ColumnsDefinition(columns =>
                         {
-                            columns.ConstantColumn(24);   // Effort Rank
-                            columns.RelativeColumn(3.2f); // Athlete Name
+                            columns.ConstantColumn(16);   // Pos / Effort Rank
+                            columns.RelativeColumn(3.6f); // Athlete Name
                             columns.ConstantColumn(52);   // Target
                             columns.ConstantColumn(52);   // Distance
                             columns.ConstantColumn(46);   // Target %
@@ -131,7 +131,7 @@ public class SwiftemberReportGenerator
 
                         table.Header(header =>
                         {
-                            header.Cell().Background(Colors.Indigo.Darken3).Padding(3).AlignCenter().Text("Pos").Bold().FontColor(Colors.White);
+                            header.Cell().Background(Colors.Indigo.Darken3).PaddingVertical(3).PaddingHorizontal(1).AlignCenter().Text("Pos").Bold().FontColor(Colors.White);
                             header.Cell().Background(Colors.Indigo.Darken3).Padding(3).Text("Athlete").Bold().FontColor(Colors.White);
                             header.Cell().Background(Colors.Indigo.Darken3).Padding(3).AlignCenter().Text("Target").Bold().FontColor(Colors.White);
                             header.Cell().Background(Colors.Indigo.Darken3).Padding(3).AlignCenter().Text("Distance").Bold().FontColor(Colors.White);
@@ -147,7 +147,7 @@ public class SwiftemberReportGenerator
                             var a = sortedByEffort[i];
                             string bg = (i % 2 == 0) ? Colors.White : Colors.Grey.Lighten4;
 
-                            table.Cell().Background(bg).Padding(2.5f).AlignCenter().Text($"{a.EffortRank}").Bold();
+                            table.Cell().Background(bg).PaddingVertical(2.5f).PaddingHorizontal(1).AlignCenter().Text($"{a.EffortRank}").Bold();
                             table.Cell().Background(bg).Padding(2.5f).Text(a.AthleteName).Medium();
                             table.Cell().Background(bg).Padding(2.5f).AlignCenter().Text($"{a.MonthlyTargetKm:N0} km").FontColor(Colors.Grey.Darken2);
                             table.Cell().Background(bg).Padding(2.5f).AlignCenter().Text($"{a.DistanceKm:N1} km").Bold().FontColor(Colors.Indigo.Darken2);
@@ -174,8 +174,8 @@ public class SwiftemberReportGenerator
                         {
                             table.ColumnsDefinition(columns =>
                             {
-                                columns.ConstantColumn(24);   // Effort Rank
-                                columns.RelativeColumn(3.2f); // Athlete Name
+                                columns.ConstantColumn(16);   // Pos / Effort Rank
+                                columns.RelativeColumn(3.6f); // Athlete Name
                                 columns.ConstantColumn(52);   // Target
                                 columns.ConstantColumn(55);   // Total Dist
                                 columns.ConstantColumn(46);   // Target %
@@ -187,7 +187,7 @@ public class SwiftemberReportGenerator
 
                             table.Header(header =>
                             {
-                                header.Cell().Background(Colors.Teal.Darken3).Padding(3).AlignCenter().Text("Pos").Bold().FontColor(Colors.White);
+                                header.Cell().Background(Colors.Teal.Darken3).PaddingVertical(3).PaddingHorizontal(1).AlignCenter().Text("Pos").Bold().FontColor(Colors.White);
                                 header.Cell().Background(Colors.Teal.Darken3).Padding(3).Text("Athlete").Bold().FontColor(Colors.White);
                                 header.Cell().Background(Colors.Teal.Darken3).Padding(3).AlignCenter().Text("Target").Bold().FontColor(Colors.White);
                                 header.Cell().Background(Colors.Teal.Darken3).Padding(3).AlignCenter().Text("Total Dist").Bold().FontColor(Colors.White);
