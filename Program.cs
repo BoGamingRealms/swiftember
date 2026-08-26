@@ -1,6 +1,7 @@
 using System;
 using System.IO;
 using System.Linq;
+using System.Net.Http;
 using System.Text.Json;
 using System.Threading.Tasks;
 using Swiftember.Models;
@@ -10,7 +11,7 @@ namespace Swiftember;
 
 class Program
 {
-    static void Main(string[] args)
+    static async Task Main(string[] args)
     {
         Console.OutputEncoding = System.Text.Encoding.UTF8;
         Console.WriteLine("=========================================================================================");
@@ -21,6 +22,11 @@ class Program
         string configPath = Path.Combine(baseDir, "appsettings.json");
         if (!File.Exists(configPath)) configPath = Path.Combine(Directory.GetCurrentDirectory(), "appsettings.json");
 
+        string clubName = "Birmingham Swifts";
+        string clubId = "202685";
+        string stravaToken = string.Empty;
+        string stravaCookie = string.Empty;
+        string onlineUrl = string.Empty;
         string downloadFolder = "~/Downloads";
         string pdfPattern = "Swiftember_Week_{0}_Leaderboard.pdf";
         string excelPattern = "Swiftember_Week_{0}_Leaderboard.xlsx";
@@ -32,6 +38,11 @@ class Program
                 string json = File.ReadAllText(configPath);
                 using var doc = JsonDocument.Parse(json);
                 var root = doc.RootElement;
+                if (root.TryGetProperty("ClubName", out var cn)) clubName = cn.GetString() ?? clubName;
+                if (root.TryGetProperty("StravaClubId", out var sci)) clubId = sci.GetString() ?? clubId;
+                if (root.TryGetProperty("StravaAccessToken", out var sat)) stravaToken = sat.GetString() ?? stravaToken;
+                if (root.TryGetProperty("StravaSessionCookie", out var ssc)) stravaCookie = ssc.GetString() ?? stravaCookie;
+                if (root.TryGetProperty("GoogleSheetUrl", out var gsu)) onlineUrl = gsu.GetString() ?? onlineUrl;
                 if (root.TryGetProperty("DownloadFolder", out var df)) downloadFolder = df.GetString() ?? downloadFolder;
                 if (root.TryGetProperty("PdfOutputPattern", out var pop)) pdfPattern = pop.GetString() ?? pdfPattern;
                 if (root.TryGetProperty("ExcelOutputPattern", out var eop)) excelPattern = eop.GetString() ?? excelPattern;
@@ -43,6 +54,8 @@ class Program
         int weekNumber = 1;
         bool generateExcel = true;
         bool generatePdf = true;
+        bool useApi = false;
+        bool useCookie = false;
 
         for (int i = 0; i < args.Length; i++)
         {
@@ -54,6 +67,28 @@ class Program
             else if ((arg.Equals("--week", StringComparison.OrdinalIgnoreCase) || arg.Equals("-w", StringComparison.OrdinalIgnoreCase)) && i + 1 < args.Length)
             {
                 if (int.TryParse(args[++i], out int w)) weekNumber = w;
+            }
+            else if ((arg.Equals("--token", StringComparison.OrdinalIgnoreCase) || arg.Equals("-t", StringComparison.OrdinalIgnoreCase)) && i + 1 < args.Length)
+            {
+                stravaToken = args[++i];
+                useApi = true;
+            }
+            else if (arg.Equals("--api", StringComparison.OrdinalIgnoreCase))
+            {
+                useApi = true;
+            }
+            else if ((arg.Equals("--cookie", StringComparison.OrdinalIgnoreCase) || arg.Equals("-c", StringComparison.OrdinalIgnoreCase)) && i + 1 < args.Length)
+            {
+                stravaCookie = args[++i];
+                useCookie = true;
+            }
+            else if ((arg.Equals("--club", StringComparison.OrdinalIgnoreCase)) && i + 1 < args.Length)
+            {
+                clubId = args[++i];
+            }
+            else if ((arg.Equals("--url", StringComparison.OrdinalIgnoreCase) || arg.Equals("-u", StringComparison.OrdinalIgnoreCase)) && i + 1 < args.Length)
+            {
+                onlineUrl = args[++i];
             }
             else if (arg.Equals("--no-excel", StringComparison.OrdinalIgnoreCase))
             {
@@ -69,26 +104,60 @@ class Program
             }
         }
 
-        if (string.IsNullOrEmpty(inputFile))
+        WeeklyLeaderboard currentWeek;
+
+        if (useApi && !string.IsNullOrEmpty(stravaToken))
         {
-            // Default sample dataset
-            inputFile = Path.Combine(Directory.GetCurrentDirectory(), "data", $"sample_week{weekNumber}.csv");
+            Console.WriteLine($"Fetching live data directly via Strava REST API for Club ID: {clubId}...");
+            var apiService = new StravaApiService();
+            currentWeek = await apiService.FetchClubActivitiesViaApiAsync(clubId, stravaToken, weekNumber);
+            currentWeek.ClubName = clubName;
+        }
+        else if (useCookie && !string.IsNullOrEmpty(stravaCookie))
+        {
+            Console.WriteLine($"Fetching live leaderboard page directly from Strava for Club ID: {clubId}...");
+            var apiService = new StravaApiService();
+            currentWeek = await apiService.FetchWebLeaderboardAsync(clubId, stravaCookie, weekNumber);
+            currentWeek.ClubName = clubName;
+        }
+        else if (!string.IsNullOrEmpty(onlineUrl))
+        {
+            Console.WriteLine($"Downloading live leaderboard data from Google Sheet / Online URL:\n  {onlineUrl}...");
+            using var http = new HttpClient();
+            string csvContent = await http.GetStringAsync(onlineUrl);
+            string tempCsv = Path.GetTempFileName();
+            File.WriteAllText(tempCsv, csvContent);
+            currentWeek = StravaLeaderboardParser.ParseCsv(tempCsv, weekNumber);
+            currentWeek.ClubName = clubName;
+            try { File.Delete(tempCsv); } catch { }
+        }
+        else
+        {
+            if (string.IsNullOrEmpty(inputFile))
+            {
+                inputFile = Path.Combine(Directory.GetCurrentDirectory(), "data", $"sample_week{weekNumber}.csv");
+                if (!File.Exists(inputFile))
+                {
+                    inputFile = Path.Combine(baseDir, "data", $"sample_week{weekNumber}.csv");
+                }
+            }
+
             if (!File.Exists(inputFile))
             {
-                inputFile = Path.Combine(baseDir, "data", $"sample_week{weekNumber}.csv");
+                Console.WriteLine($"[Error] Input leaderboard data file not found: {inputFile}");
+                Console.WriteLine("\nOptions to load data:");
+                Console.WriteLine("  1. Direct Strava API:   dotnet run -- --api --token <your_strava_token> --club <clubId>");
+                Console.WriteLine("  2. Direct Web Session:  dotnet run -- --cookie <strava_cookie> --club <clubId>");
+                Console.WriteLine("  3. Live Google Sheet:   dotnet run -- --url <google_sheet_csv_url>");
+                Console.WriteLine("  4. Local File:          dotnet run -- --file <path_to_csv_or_json>");
+                return;
             }
+
+            Console.WriteLine($"Parsing Strava weekly leaderboard from:\n  {inputFile}\n");
+            currentWeek = StravaLeaderboardParser.ParseFile(inputFile, weekNumber);
+            currentWeek.ClubName = clubName;
         }
 
-        if (!File.Exists(inputFile))
-        {
-            Console.WriteLine($"[Error] Input leaderboard data file not found: {inputFile}");
-            Console.WriteLine("Usage: dotnet run -- --file <path-to-csv-or-json> --week <1-5>");
-            return;
-        }
-
-        Console.WriteLine($"Parsing Strava weekly leaderboard from:\n  {inputFile}\n");
-
-        var currentWeek = StravaLeaderboardParser.ParseFile(inputFile, weekNumber);
         SwiftemberRankingEngine.ApplyWeeklyPoints(currentWeek);
 
         Console.WriteLine($"Club:                            {currentWeek.ClubName}");
