@@ -25,15 +25,111 @@ public class StravaLeaderboardParser
         {
             return ParseCsv(filePath, weekNumber);
         }
+        else if (ext == ".tsv" || ext == ".txt")
+        {
+            return ParseTsv(filePath, weekNumber);
+        }
         else if (ext == ".html" || ext == ".htm")
         {
             return ParseHtml(filePath, weekNumber);
         }
         else
         {
-            // Default attempt CSV / text
+            // Default attempt TSV / CSV / text
+            string content = File.ReadAllText(filePath);
+            if (content.Contains('\t')) return ParseTsv(filePath, weekNumber);
             return ParseCsv(filePath, weekNumber);
         }
+    }
+
+    public static WeeklyLeaderboard ParseTsv(string tsvPath, int weekNumber = 1)
+    {
+        var leaderboard = new WeeklyLeaderboard { WeekNumber = weekNumber };
+        var lines = File.ReadAllLines(tsvPath);
+        int rank = 1;
+
+        foreach (var rawLine in lines)
+        {
+            if (string.IsNullOrWhiteSpace(rawLine)) continue;
+            var parts = rawLine.Split('\t').Select(p => p.Trim()).Where(p => !string.IsNullOrEmpty(p)).ToList();
+            if (parts.Count < 2) continue;
+
+            // Skip header if first column is "Rank"
+            if (parts[0].Equals("Rank", StringComparison.OrdinalIgnoreCase)) continue;
+
+            int parsedRank = rank++;
+            string name = parts.Count > 1 ? CleanAthleteName(parts[1]) : $"Athlete {parsedRank}";
+            string distStr = parts.Count > 2 ? parts[2] : "0";
+            string runsStr = parts.Count > 3 ? parts[3] : "1";
+            string longestStr = parts.Count > 4 ? parts[4] : "0";
+            string paceStr = string.Empty;
+            string elevStr = "0";
+
+            if (parts.Count > 5)
+            {
+                if (parts[5].Contains("/km") || parts[5].Contains("/mi"))
+                {
+                    paceStr = parts[5];
+                    if (parts.Count > 6) elevStr = parts[6];
+                }
+                else
+                {
+                    elevStr = parts[5];
+                    if (parts.Count > 6) paceStr = parts[6];
+                }
+            }
+
+            double dist = ParseNumeric(distStr);
+            int runs = int.TryParse(Regex.Replace(runsStr, @"[^\d]", ""), out int r) ? r : 1;
+            double longest = ParseNumeric(longestStr);
+            double elev = ParseNumeric(elevStr);
+
+            leaderboard.Athletes.Add(new StravaAthleteRecord
+            {
+                Rank = parsedRank,
+                AthleteName = name,
+                DistanceKm = dist,
+                ActivitiesCount = runs,
+                LongestActivityKm = longest,
+                ElevationGainM = elev,
+                PaceFormatted = paceStr
+            });
+        }
+
+        leaderboard.Athletes = leaderboard.Athletes.OrderByDescending(a => a.DistanceKm).ToList();
+        for (int i = 0; i < leaderboard.Athletes.Count; i++)
+        {
+            leaderboard.Athletes[i].Rank = i + 1;
+        }
+
+        RecalculateTotals(leaderboard);
+        return leaderboard;
+    }
+
+    public static string CleanAthleteName(string raw)
+    {
+        if (string.IsNullOrWhiteSpace(raw)) return "Athlete";
+        raw = raw.Trim();
+
+        string[] words = raw.Split(' ', StringSplitOptions.RemoveEmptyEntries);
+        if (words.Length >= 2 && words.Length % 2 == 0)
+        {
+            int half = words.Length / 2;
+            bool isDuplicate = true;
+            for (int i = 0; i < half; i++)
+            {
+                if (!words[i].Equals(words[i + half], StringComparison.OrdinalIgnoreCase))
+                {
+                    isDuplicate = false;
+                    break;
+                }
+            }
+            if (isDuplicate)
+            {
+                return string.Join(" ", words.Take(half));
+            }
+        }
+        return raw;
     }
 
     public static WeeklyLeaderboard ParseJson(string jsonPath, int weekNumber = 1)
