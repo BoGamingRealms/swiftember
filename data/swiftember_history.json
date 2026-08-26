@@ -6,230 +6,922 @@
     "EndDate": "",
     "ClubName": "Birmingham Swifts",
     "ClubId": "",
-    "TotalClubDistanceKm": 594.6,
-    "TotalClubElevationM": 3470,
-    "TotalClubActivities": 53,
-    "ActiveAthletesCount": 20,
+    "TotalClubDistanceKm": 607.1999999999999,
+    "TotalClubElevationM": 3716,
+    "TotalClubActivities": 80,
+    "ActiveAthletesCount": 57,
     "Athletes": [
       {
         "Rank": 1,
-        "AthleteName": "Kayden SCHUMACHER",
-        "DistanceKm": 68.4,
-        "ActivitiesCount": 5,
-        "LongestActivityKm": 22,
-        "ElevationGainM": 510,
-        "PaceFormatted": "4:42 /km",
+        "AthleteName": "Rich Grover",
+        "DistanceKm": 42.4,
+        "ActivitiesCount": 3,
+        "LongestActivityKm": 18.2,
+        "ElevationGainM": 77,
+        "PaceFormatted": "4:30 /km",
         "ProfileUrl": "",
-        "Points": 98.4
+        "Points": 41.3,
+        "MonthlyTargetKm": 150,
+        "TargetProgressPct": 28.26666666666667,
+        "EffortRank": 6,
+        "EffortScore": 44.57333333333334,
+        "PacingStatus": "\uD83D\uDFE2 On Track"
       },
       {
         "Rank": 2,
-        "AthleteName": "Alexander BROWN",
-        "DistanceKm": 56.2,
-        "ActivitiesCount": 4,
-        "LongestActivityKm": 18,
-        "ElevationGainM": 380,
-        "PaceFormatted": "5:05 /km",
+        "AthleteName": "Donald Skoyles",
+        "DistanceKm": 36.5,
+        "ActivitiesCount": 5,
+        "LongestActivityKm": 8.5,
+        "ElevationGainM": 176,
+        "PaceFormatted": "5:48 /km",
         "ProfileUrl": "",
-        "Points": 79.2
+        "Points": 53.4,
+        "MonthlyTargetKm": 120,
+        "TargetProgressPct": 30.416666666666664,
+        "EffortRank": 2,
+        "EffortScore": 47.58333333333333,
+        "PacingStatus": "\uD83D\uDE80 Ahead of Goal"
       },
       {
         "Rank": 3,
-        "AthleteName": "Joshua SAVAGE",
-        "DistanceKm": 51,
+        "AthleteName": "Shaun Dolby",
+        "DistanceKm": 34.3,
         "ActivitiesCount": 4,
-        "LongestActivityKm": 15.5,
-        "ElevationGainM": 340,
-        "PaceFormatted": "4:50 /km",
+        "LongestActivityKm": 11.4,
+        "ElevationGainM": 84,
+        "PaceFormatted": "4:20 /km",
         "ProfileUrl": "",
-        "Points": 71
+        "Points": 48.6,
+        "MonthlyTargetKm": 120,
+        "TargetProgressPct": 28.583333333333332,
+        "EffortRank": 3,
+        "EffortScore": 45.016666666666666,
+        "PacingStatus": "\uD83D\uDFE2 On Track"
       },
       {
         "Rank": 4,
-        "AthleteName": "Quinn DAVIS",
-        "DistanceKm": 45.8,
-        "ActivitiesCount": 4,
-        "LongestActivityKm": 14,
-        "ElevationGainM": 300,
-        "PaceFormatted": "5:02 /km",
+        "AthleteName": "Jack Dean",
+        "DistanceKm": 28.3,
+        "ActivitiesCount": 2,
+        "LongestActivityKm": 20.3,
+        "ElevationGainM": 238,
+        "PaceFormatted": "5:12 /km",
         "ProfileUrl": "",
-        "Points": 62.8
+        "Points": 38.3,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 28.300000000000004,
+        "EffortRank": 5,
+        "EffortScore": 39.620000000000005,
+        "PacingStatus": "\uD83D\uDFE2 On Track"
       },
       {
         "Rank": 5,
-        "AthleteName": "Adrian PLATT",
-        "DistanceKm": 41.2,
-        "ActivitiesCount": 4,
-        "LongestActivityKm": 11.5,
-        "ElevationGainM": 230,
-        "PaceFormatted": "5:30 /km",
+        "AthleteName": "Joshua Burnett",
+        "DistanceKm": 24.4,
+        "ActivitiesCount": 1,
+        "LongestActivityKm": 24.4,
+        "ElevationGainM": 83,
+        "PaceFormatted": "6:31 /km",
         "ProfileUrl": "",
-        "Points": 56.2
+        "Points": 55.5,
+        "MonthlyTargetKm": 80,
+        "TargetProgressPct": 30.5,
+        "EffortRank": 1,
+        "EffortScore": 42.7,
+        "PacingStatus": "\uD83D\uDE80 Ahead of Goal"
       },
       {
         "Rank": 6,
-        "AthleteName": "Samir PATEL",
-        "DistanceKm": 38.5,
-        "ActivitiesCount": 3,
-        "LongestActivityKm": 13,
+        "AthleteName": "Jos\u00E9 Al\u00F3s",
+        "DistanceKm": 21.9,
+        "ActivitiesCount": 4,
+        "LongestActivityKm": 10.3,
         "ElevationGainM": 210,
-        "PaceFormatted": "5:18 /km",
+        "PaceFormatted": "5:30 /km",
         "ProfileUrl": "",
-        "Points": 51.5
+        "Points": 36.4,
+        "MonthlyTargetKm": 80,
+        "TargetProgressPct": 27.375,
+        "EffortRank": 8,
+        "EffortScore": 43.325,
+        "PacingStatus": "\uD83D\uDFE2 On Track"
       },
       {
         "Rank": 7,
-        "AthleteName": "Liam O\u0027CONNOR",
-        "DistanceKm": 34,
-        "ActivitiesCount": 3,
-        "LongestActivityKm": 11,
-        "ElevationGainM": 175,
-        "PaceFormatted": "5:35 /km",
+        "AthleteName": "Christopher Bainbridge",
+        "DistanceKm": 20.2,
+        "ActivitiesCount": 2,
+        "LongestActivityKm": 10.2,
+        "ElevationGainM": 125,
+        "PaceFormatted": "6:19 /km",
         "ProfileUrl": "",
-        "Points": 45
+        "Points": 25.2,
+        "MonthlyTargetKm": 80,
+        "TargetProgressPct": 25.25,
+        "EffortRank": 11,
+        "EffortScore": 35.35,
+        "PacingStatus": "\uD83D\uDFE2 On Track"
       },
       {
         "Rank": 8,
-        "AthleteName": "Marcus REID",
-        "DistanceKm": 30.5,
-        "ActivitiesCount": 3,
-        "LongestActivityKm": 10.5,
-        "ElevationGainM": 150,
-        "PaceFormatted": "5:45 /km",
+        "AthleteName": "Benjamin Lane",
+        "DistanceKm": 20,
+        "ActivitiesCount": 1,
+        "LongestActivityKm": 20,
+        "ElevationGainM": 103,
+        "PaceFormatted": "5:17 /km",
         "ProfileUrl": "",
-        "Points": 39.5
+        "Points": 27.7,
+        "MonthlyTargetKm": 75,
+        "TargetProgressPct": 26.666666666666668,
+        "EffortRank": 10,
+        "EffortScore": 37.333333333333336,
+        "PacingStatus": "\uD83D\uDFE2 On Track"
       },
       {
         "Rank": 9,
-        "AthleteName": "Emma ROBERTS",
-        "DistanceKm": 28.4,
-        "ActivitiesCount": 3,
+        "AthleteName": "Matt D\u0027Silva",
+        "DistanceKm": 20,
+        "ActivitiesCount": 2,
         "LongestActivityKm": 10,
-        "ElevationGainM": 160,
-        "PaceFormatted": "5:32 /km",
+        "ElevationGainM": 222,
+        "PaceFormatted": "6:14 /km",
         "ProfileUrl": "",
-        "Points": 35.4
+        "Points": 28.7,
+        "MonthlyTargetKm": 75,
+        "TargetProgressPct": 26.666666666666668,
+        "EffortRank": 9,
+        "EffortScore": 37.333333333333336,
+        "PacingStatus": "\uD83D\uDFE2 On Track"
       },
       {
         "Rank": 10,
-        "AthleteName": "Daniel EVANS",
-        "DistanceKm": 26.8,
-        "ActivitiesCount": 3,
-        "LongestActivityKm": 10,
-        "ElevationGainM": 135,
-        "PaceFormatted": "5:28 /km",
+        "AthleteName": "Barry Cassidy",
+        "DistanceKm": 17,
+        "ActivitiesCount": 1,
+        "LongestActivityKm": 17,
+        "ElevationGainM": 42,
+        "PaceFormatted": "5:19 /km",
         "ProfileUrl": "",
-        "Points": 32.8
+        "Points": 40.3,
+        "MonthlyTargetKm": 60,
+        "TargetProgressPct": 28.333333333333332,
+        "EffortRank": 4,
+        "EffortScore": 39.666666666666664,
+        "PacingStatus": "\uD83D\uDFE2 On Track"
       },
       {
         "Rank": 11,
-        "AthleteName": "Oliver TAYLOR",
-        "DistanceKm": 24,
+        "AthleteName": "Jack Roughan",
+        "DistanceKm": 14.9,
         "ActivitiesCount": 2,
-        "LongestActivityKm": 12,
-        "ElevationGainM": 120,
-        "PaceFormatted": "5:40 /km",
+        "LongestActivityKm": 10,
+        "ElevationGainM": 41,
+        "PaceFormatted": "5:26 /km",
         "ProfileUrl": "",
-        "Points": 24
+        "Points": 24.8,
+        "MonthlyTargetKm": 60,
+        "TargetProgressPct": 24.833333333333336,
+        "EffortRank": 13,
+        "EffortScore": 34.76666666666667,
+        "PacingStatus": "\uD83D\uDFE2 On Track"
       },
       {
         "Rank": 12,
-        "AthleteName": "Sophie CLARKE",
-        "DistanceKm": 22.1,
-        "ActivitiesCount": 2,
-        "LongestActivityKm": 11.5,
-        "ElevationGainM": 115,
-        "PaceFormatted": "5:48 /km",
+        "AthleteName": "Emma Swift",
+        "DistanceKm": 12,
+        "ActivitiesCount": 1,
+        "LongestActivityKm": 12,
+        "ElevationGainM": 31,
+        "PaceFormatted": "5:50 /km",
         "ProfileUrl": "",
-        "Points": 22.1
+        "Points": 24,
+        "MonthlyTargetKm": 50,
+        "TargetProgressPct": 24,
+        "EffortRank": 16,
+        "EffortScore": 33.6,
+        "PacingStatus": "\uD83D\uDFE2 On Track"
       },
       {
         "Rank": 13,
-        "AthleteName": "Ben WRIGHT",
-        "DistanceKm": 21.5,
+        "AthleteName": "Edmund Lawrence",
+        "DistanceKm": 11,
         "ActivitiesCount": 2,
-        "LongestActivityKm": 11,
-        "ElevationGainM": 105,
-        "PaceFormatted": "5:55 /km",
+        "LongestActivityKm": 6,
+        "ElevationGainM": 90,
+        "PaceFormatted": "7:56 /km",
         "ProfileUrl": "",
-        "Points": 21.5
+        "Points": 22,
+        "MonthlyTargetKm": 50,
+        "TargetProgressPct": 22,
+        "EffortRank": 22,
+        "EffortScore": 30.8,
+        "PacingStatus": "\uD83D\uDFE1 In Progress"
       },
       {
         "Rank": 14,
-        "AthleteName": "Michael HUGHES",
-        "DistanceKm": 19.5,
-        "ActivitiesCount": 2,
-        "LongestActivityKm": 10,
-        "ElevationGainM": 95,
-        "PaceFormatted": "5:58 /km",
+        "AthleteName": "Alexander Brown",
+        "DistanceKm": 11,
+        "ActivitiesCount": 1,
+        "LongestActivityKm": 11,
+        "ElevationGainM": 129,
+        "PaceFormatted": "5:55 /km",
         "ProfileUrl": "",
-        "Points": 19.5
+        "Points": 11,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 11,
+        "EffortRank": 57,
+        "EffortScore": 15.4,
+        "PacingStatus": "\uD83D\uDD34 Needs Boost"
       },
       {
         "Rank": 15,
-        "AthleteName": "Chris MARTIN",
-        "DistanceKm": 18.2,
-        "ActivitiesCount": 2,
-        "LongestActivityKm": 9.5,
-        "ElevationGainM": 90,
+        "AthleteName": "Ian Allen \uD83C\uDFF3\uFE0F\uD83C\uDF08",
+        "DistanceKm": 10.5,
+        "ActivitiesCount": 1,
+        "LongestActivityKm": 10.5,
+        "ElevationGainM": 162,
         "PaceFormatted": "6:10 /km",
         "ProfileUrl": "",
-        "Points": 18.2
+        "Points": 21,
+        "MonthlyTargetKm": 50,
+        "TargetProgressPct": 21,
+        "EffortRank": 30,
+        "EffortScore": 29.4,
+        "PacingStatus": "\uD83D\uDFE1 In Progress"
       },
       {
         "Rank": 16,
-        "AthleteName": "Hannah LEWIS",
-        "DistanceKm": 16.8,
-        "ActivitiesCount": 2,
-        "LongestActivityKm": 8.5,
-        "ElevationGainM": 85,
-        "PaceFormatted": "6:12 /km",
+        "AthleteName": "Scott Brough",
+        "DistanceKm": 10.2,
+        "ActivitiesCount": 1,
+        "LongestActivityKm": 10.2,
+        "ElevationGainM": 59,
+        "PaceFormatted": "6:04 /km",
         "ProfileUrl": "",
-        "Points": 16.8
+        "Points": 20.4,
+        "MonthlyTargetKm": 50,
+        "TargetProgressPct": 20.4,
+        "EffortRank": 35,
+        "EffortScore": 28.56,
+        "PacingStatus": "\uD83D\uDFE1 In Progress"
       },
       {
         "Rank": 17,
-        "AthleteName": "James WILSON",
-        "DistanceKm": 15,
-        "ActivitiesCount": 2,
-        "LongestActivityKm": 8,
-        "ElevationGainM": 80,
-        "PaceFormatted": "5:50 /km",
-        "ProfileUrl": "",
-        "Points": 15
-      },
-      {
-        "Rank": 18,
-        "AthleteName": "Matthew WALKER",
-        "DistanceKm": 14.2,
-        "ActivitiesCount": 1,
-        "LongestActivityKm": 14.2,
-        "ElevationGainM": 75,
-        "PaceFormatted": "6:02 /km",
-        "ProfileUrl": "",
-        "Points": 14.2
-      },
-      {
-        "Rank": 19,
-        "AthleteName": "Thomas HALL",
-        "DistanceKm": 12.5,
-        "ActivitiesCount": 1,
-        "LongestActivityKm": 12.5,
-        "ElevationGainM": 65,
-        "PaceFormatted": "6:05 /km",
-        "ProfileUrl": "",
-        "Points": 12.5
-      },
-      {
-        "Rank": 20,
-        "AthleteName": "David GREEN",
+        "AthleteName": "Ady Pendred \uD83C\uDDEC\uD83C\uDDE7",
         "DistanceKm": 10,
         "ActivitiesCount": 1,
         "LongestActivityKm": 10,
+        "ElevationGainM": 27,
+        "PaceFormatted": "4:58 /km",
+        "ProfileUrl": "",
+        "Points": 20,
+        "MonthlyTargetKm": 50,
+        "TargetProgressPct": 20,
+        "EffortRank": 41,
+        "EffortScore": 28,
+        "PacingStatus": "\uD83D\uDFE1 In Progress"
+      },
+      {
+        "Rank": 18,
+        "AthleteName": "Mark Chalmers \uD83C\uDFF3\uFE0F\uD83C\uDF08",
+        "DistanceKm": 10,
+        "ActivitiesCount": 2,
+        "LongestActivityKm": 5,
+        "ElevationGainM": 80,
+        "PaceFormatted": "4:21 /km",
+        "ProfileUrl": "",
+        "Points": 20,
+        "MonthlyTargetKm": 50,
+        "TargetProgressPct": 20,
+        "EffortRank": 38,
+        "EffortScore": 28,
+        "PacingStatus": "\uD83D\uDFE1 In Progress"
+      },
+      {
+        "Rank": 19,
+        "AthleteName": "Pete Hall",
+        "DistanceKm": 10,
+        "ActivitiesCount": 1,
+        "LongestActivityKm": 10,
+        "ElevationGainM": 71,
+        "PaceFormatted": "5:40 /km",
+        "ProfileUrl": "",
+        "Points": 20,
+        "MonthlyTargetKm": 50,
+        "TargetProgressPct": 20,
+        "EffortRank": 42,
+        "EffortScore": 28,
+        "PacingStatus": "\uD83D\uDFE1 In Progress"
+      },
+      {
+        "Rank": 20,
+        "AthleteName": "Farrell Baker",
+        "DistanceKm": 10,
+        "ActivitiesCount": 1,
+        "LongestActivityKm": 10,
+        "ElevationGainM": 69,
+        "PaceFormatted": "5:40 /km",
+        "ProfileUrl": "",
+        "Points": 20,
+        "MonthlyTargetKm": 50,
+        "TargetProgressPct": 20,
+        "EffortRank": 43,
+        "EffortScore": 28,
+        "PacingStatus": "\uD83D\uDFE1 In Progress"
+      },
+      {
+        "Rank": 21,
+        "AthleteName": "zac goodman",
+        "DistanceKm": 10,
+        "ActivitiesCount": 2,
+        "LongestActivityKm": 5,
+        "ElevationGainM": 86,
+        "PaceFormatted": "4:48 /km",
+        "ProfileUrl": "",
+        "Points": 20,
+        "MonthlyTargetKm": 50,
+        "TargetProgressPct": 20,
+        "EffortRank": 39,
+        "EffortScore": 28,
+        "PacingStatus": "\uD83D\uDFE1 In Progress"
+      },
+      {
+        "Rank": 22,
+        "AthleteName": "David Stokes",
+        "DistanceKm": 10,
+        "ActivitiesCount": 1,
+        "LongestActivityKm": 10,
+        "ElevationGainM": 159,
+        "PaceFormatted": "6:44 /km",
+        "ProfileUrl": "",
+        "Points": 20,
+        "MonthlyTargetKm": 50,
+        "TargetProgressPct": 20,
+        "EffortRank": 44,
+        "EffortScore": 28,
+        "PacingStatus": "\uD83D\uDFE1 In Progress"
+      },
+      {
+        "Rank": 23,
+        "AthleteName": "Benjani Morgan",
+        "DistanceKm": 10,
+        "ActivitiesCount": 2,
+        "LongestActivityKm": 5,
+        "ElevationGainM": 23,
+        "PaceFormatted": "5:04 /km",
+        "ProfileUrl": "",
+        "Points": 20,
+        "MonthlyTargetKm": 50,
+        "TargetProgressPct": 20,
+        "EffortRank": 40,
+        "EffortScore": 28,
+        "PacingStatus": "\uD83D\uDFE1 In Progress"
+      },
+      {
+        "Rank": 24,
+        "AthleteName": "Sunin Patel",
+        "DistanceKm": 9.6,
+        "ActivitiesCount": 1,
+        "LongestActivityKm": 9.6,
+        "ElevationGainM": 78,
+        "PaceFormatted": "5:22 /km",
+        "ProfileUrl": "",
+        "Points": 24,
+        "MonthlyTargetKm": 40,
+        "TargetProgressPct": 24,
+        "EffortRank": 17,
+        "EffortScore": 33.6,
+        "PacingStatus": "\uD83D\uDFE2 On Track"
+      },
+      {
+        "Rank": 25,
+        "AthleteName": "Tom French",
+        "DistanceKm": 8.8,
+        "ActivitiesCount": 1,
+        "LongestActivityKm": 8.8,
+        "ElevationGainM": 49,
+        "PaceFormatted": "7:01 /km",
+        "ProfileUrl": "",
+        "Points": 22,
+        "MonthlyTargetKm": 40,
+        "TargetProgressPct": 22.000000000000004,
+        "EffortRank": 21,
+        "EffortScore": 30.800000000000004,
+        "PacingStatus": "\uD83D\uDFE1 In Progress"
+      },
+      {
+        "Rank": 26,
+        "AthleteName": "Jamie Lockey",
+        "DistanceKm": 8.6,
+        "ActivitiesCount": 1,
+        "LongestActivityKm": 8.6,
+        "ElevationGainM": 44,
+        "PaceFormatted": "5:11 /km",
+        "ProfileUrl": "",
+        "Points": 21.5,
+        "MonthlyTargetKm": 40,
+        "TargetProgressPct": 21.5,
+        "EffortRank": 25,
+        "EffortScore": 30.1,
+        "PacingStatus": "\uD83D\uDFE1 In Progress"
+      },
+      {
+        "Rank": 27,
+        "AthleteName": "Andrea Bohn",
+        "DistanceKm": 8.3,
+        "ActivitiesCount": 2,
+        "LongestActivityKm": 4.9,
+        "ElevationGainM": 0,
+        "PaceFormatted": "10:04 /km",
+        "ProfileUrl": "",
+        "Points": 33.7,
+        "MonthlyTargetKm": 30,
+        "TargetProgressPct": 27.666666666666668,
+        "EffortRank": 7,
+        "EffortScore": 38.733333333333334,
+        "PacingStatus": "\uD83D\uDFE2 On Track"
+      },
+      {
+        "Rank": 28,
+        "AthleteName": "Mark Blakeman",
+        "DistanceKm": 8.2,
+        "ActivitiesCount": 1,
+        "LongestActivityKm": 8.2,
+        "ElevationGainM": 92,
+        "PaceFormatted": "5:46 /km",
+        "ProfileUrl": "",
+        "Points": 20.5,
+        "MonthlyTargetKm": 40,
+        "TargetProgressPct": 20.5,
+        "EffortRank": 34,
+        "EffortScore": 28.700000000000003,
+        "PacingStatus": "\uD83D\uDFE1 In Progress"
+      },
+      {
+        "Rank": 29,
+        "AthleteName": "Matthew Rushton",
+        "DistanceKm": 8,
+        "ActivitiesCount": 1,
+        "LongestActivityKm": 8,
         "ElevationGainM": 50,
+        "PaceFormatted": "5:27 /km",
+        "ProfileUrl": "",
+        "Points": 20,
+        "MonthlyTargetKm": 40,
+        "TargetProgressPct": 20,
+        "EffortRank": 45,
+        "EffortScore": 28,
+        "PacingStatus": "\uD83D\uDFE1 In Progress"
+      },
+      {
+        "Rank": 30,
+        "AthleteName": "Joe Pinder",
+        "DistanceKm": 7.6,
+        "ActivitiesCount": 1,
+        "LongestActivityKm": 7.6,
+        "ElevationGainM": 80,
+        "PaceFormatted": "6:12 /km",
+        "ProfileUrl": "",
+        "Points": 19,
+        "MonthlyTargetKm": 40,
+        "TargetProgressPct": 19,
+        "EffortRank": 55,
+        "EffortScore": 26.6,
+        "PacingStatus": "\uD83D\uDFE1 In Progress"
+      },
+      {
+        "Rank": 31,
+        "AthleteName": "Alex Meers",
+        "DistanceKm": 7.5,
+        "ActivitiesCount": 1,
+        "LongestActivityKm": 7.5,
+        "ElevationGainM": 39,
+        "PaceFormatted": "7:22 /km",
+        "ProfileUrl": "",
+        "Points": 25,
+        "MonthlyTargetKm": 30,
+        "TargetProgressPct": 25,
+        "EffortRank": 12,
+        "EffortScore": 35,
+        "PacingStatus": "\uD83D\uDFE2 On Track"
+      },
+      {
+        "Rank": 32,
+        "AthleteName": "John Mosuela",
+        "DistanceKm": 7.2,
+        "ActivitiesCount": 1,
+        "LongestActivityKm": 7.2,
+        "ElevationGainM": 32,
+        "PaceFormatted": "5:26 /km",
+        "ProfileUrl": "",
+        "Points": 24,
+        "MonthlyTargetKm": 30,
+        "TargetProgressPct": 24.000000000000004,
+        "EffortRank": 15,
+        "EffortScore": 33.60000000000001,
+        "PacingStatus": "\uD83D\uDFE2 On Track"
+      },
+      {
+        "Rank": 33,
+        "AthleteName": "stephen hopkins",
+        "DistanceKm": 6.7,
+        "ActivitiesCount": 1,
+        "LongestActivityKm": 6.7,
+        "ElevationGainM": 63,
+        "PaceFormatted": "6:23 /km",
+        "ProfileUrl": "",
+        "Points": 22.3,
+        "MonthlyTargetKm": 30,
+        "TargetProgressPct": 22.333333333333332,
+        "EffortRank": 20,
+        "EffortScore": 31.266666666666666,
+        "PacingStatus": "\uD83D\uDFE1 In Progress"
+      },
+      {
+        "Rank": 34,
+        "AthleteName": "Gurv M",
+        "DistanceKm": 6.6,
+        "ActivitiesCount": 1,
+        "LongestActivityKm": 6.6,
+        "ElevationGainM": 58,
+        "PaceFormatted": "5:56 /km",
+        "ProfileUrl": "",
+        "Points": 22,
+        "MonthlyTargetKm": 30,
+        "TargetProgressPct": 22,
+        "EffortRank": 23,
+        "EffortScore": 30.8,
+        "PacingStatus": "\uD83D\uDFE1 In Progress"
+      },
+      {
+        "Rank": 35,
+        "AthleteName": "Matt Mackinnon-Coleman",
+        "DistanceKm": 6.5,
+        "ActivitiesCount": 1,
+        "LongestActivityKm": 6.5,
+        "ElevationGainM": 53,
+        "PaceFormatted": "5:25 /km",
+        "ProfileUrl": "",
+        "Points": 21.7,
+        "MonthlyTargetKm": 30,
+        "TargetProgressPct": 21.666666666666668,
+        "EffortRank": 24,
+        "EffortScore": 30.333333333333336,
+        "PacingStatus": "\uD83D\uDFE1 In Progress"
+      },
+      {
+        "Rank": 36,
+        "AthleteName": "Penelope Barber",
+        "DistanceKm": 6.4,
+        "ActivitiesCount": 1,
+        "LongestActivityKm": 6.4,
+        "ElevationGainM": 10,
+        "PaceFormatted": "6:56 /km",
+        "ProfileUrl": "",
+        "Points": 21.3,
+        "MonthlyTargetKm": 30,
+        "TargetProgressPct": 21.333333333333336,
+        "EffortRank": 28,
+        "EffortScore": 29.86666666666667,
+        "PacingStatus": "\uD83D\uDFE1 In Progress"
+      },
+      {
+        "Rank": 37,
+        "AthleteName": "Bo Wang",
+        "DistanceKm": 6.2,
+        "ActivitiesCount": 2,
+        "LongestActivityKm": 5.6,
+        "ElevationGainM": 11,
+        "PaceFormatted": "3:54 /km",
+        "ProfileUrl": "",
+        "Points": 20.7,
+        "MonthlyTargetKm": 30,
+        "TargetProgressPct": 20.666666666666668,
+        "EffortRank": 33,
+        "EffortScore": 28.933333333333337,
+        "PacingStatus": "\uD83D\uDFE1 In Progress"
+      },
+      {
+        "Rank": 38,
+        "AthleteName": "Joe Hanson",
+        "DistanceKm": 6.1,
+        "ActivitiesCount": 1,
+        "LongestActivityKm": 6.1,
+        "ElevationGainM": 26,
+        "PaceFormatted": "6:10 /km",
+        "ProfileUrl": "",
+        "Points": 20.3,
+        "MonthlyTargetKm": 30,
+        "TargetProgressPct": 20.333333333333332,
+        "EffortRank": 37,
+        "EffortScore": 28.466666666666665,
+        "PacingStatus": "\uD83D\uDFE1 In Progress"
+      },
+      {
+        "Rank": 39,
+        "AthleteName": "Martin Tedd",
+        "DistanceKm": 6,
+        "ActivitiesCount": 2,
+        "LongestActivityKm": 5,
+        "ElevationGainM": 40,
+        "PaceFormatted": "6:09 /km",
+        "ProfileUrl": "",
+        "Points": 20,
+        "MonthlyTargetKm": 30,
+        "TargetProgressPct": 20,
+        "EffortRank": 46,
+        "EffortScore": 28,
+        "PacingStatus": "\uD83D\uDFE1 In Progress"
+      },
+      {
+        "Rank": 40,
+        "AthleteName": "Josh Savage",
+        "DistanceKm": 6,
+        "ActivitiesCount": 1,
+        "LongestActivityKm": 6,
+        "ElevationGainM": 170,
+        "PaceFormatted": "6:03 /km",
+        "ProfileUrl": "",
+        "Points": 20,
+        "MonthlyTargetKm": 30,
+        "TargetProgressPct": 20,
+        "EffortRank": 47,
+        "EffortScore": 28,
+        "PacingStatus": "\uD83D\uDFE1 In Progress"
+      },
+      {
+        "Rank": 41,
+        "AthleteName": "Reb Kean",
+        "DistanceKm": 5.2,
+        "ActivitiesCount": 1,
+        "LongestActivityKm": 5.2,
+        "ElevationGainM": 34,
+        "PaceFormatted": "7:09 /km",
+        "ProfileUrl": "",
+        "Points": 20.8,
+        "MonthlyTargetKm": 25,
+        "TargetProgressPct": 20.8,
+        "EffortRank": 31,
+        "EffortScore": 29.12,
+        "PacingStatus": "\uD83D\uDFE1 In Progress"
+      },
+      {
+        "Rank": 42,
+        "AthleteName": "James Evans",
+        "DistanceKm": 5.2,
+        "ActivitiesCount": 1,
+        "LongestActivityKm": 5.2,
+        "ElevationGainM": 53,
+        "PaceFormatted": "6:36 /km",
+        "ProfileUrl": "",
+        "Points": 20.8,
+        "MonthlyTargetKm": 25,
+        "TargetProgressPct": 20.8,
+        "EffortRank": 32,
+        "EffortScore": 29.12,
+        "PacingStatus": "\uD83D\uDFE1 In Progress"
+      },
+      {
+        "Rank": 43,
+        "AthleteName": "George Lee",
+        "DistanceKm": 5.1,
+        "ActivitiesCount": 1,
+        "LongestActivityKm": 5.1,
+        "ElevationGainM": 2,
         "PaceFormatted": "6:25 /km",
         "ProfileUrl": "",
-        "Points": 10
+        "Points": 20.4,
+        "MonthlyTargetKm": 25,
+        "TargetProgressPct": 20.4,
+        "EffortRank": 36,
+        "EffortScore": 28.56,
+        "PacingStatus": "\uD83D\uDFE1 In Progress"
+      },
+      {
+        "Rank": 44,
+        "AthleteName": "David Purnell",
+        "DistanceKm": 5,
+        "ActivitiesCount": 1,
+        "LongestActivityKm": 5,
+        "ElevationGainM": 0,
+        "PaceFormatted": "6:38 /km",
+        "ProfileUrl": "",
+        "Points": 20,
+        "MonthlyTargetKm": 25,
+        "TargetProgressPct": 20,
+        "EffortRank": 48,
+        "EffortScore": 28,
+        "PacingStatus": "\uD83D\uDFE1 In Progress"
+      },
+      {
+        "Rank": 45,
+        "AthleteName": "Christopher David",
+        "DistanceKm": 5,
+        "ActivitiesCount": 1,
+        "LongestActivityKm": 5,
+        "ElevationGainM": 39,
+        "PaceFormatted": "7:35 /km",
+        "ProfileUrl": "",
+        "Points": 20,
+        "MonthlyTargetKm": 25,
+        "TargetProgressPct": 20,
+        "EffortRank": 49,
+        "EffortScore": 28,
+        "PacingStatus": "\uD83D\uDFE1 In Progress"
+      },
+      {
+        "Rank": 46,
+        "AthleteName": "Sam Lewis",
+        "DistanceKm": 5,
+        "ActivitiesCount": 1,
+        "LongestActivityKm": 5,
+        "ElevationGainM": 24,
+        "PaceFormatted": "5:33 /km",
+        "ProfileUrl": "",
+        "Points": 20,
+        "MonthlyTargetKm": 25,
+        "TargetProgressPct": 20,
+        "EffortRank": 50,
+        "EffortScore": 28,
+        "PacingStatus": "\uD83D\uDFE1 In Progress"
+      },
+      {
+        "Rank": 47,
+        "AthleteName": "Bradley M \uD83C\uDFF3\uFE0F\uD83C\uDF08",
+        "DistanceKm": 5,
+        "ActivitiesCount": 1,
+        "LongestActivityKm": 5,
+        "ElevationGainM": 38,
+        "PaceFormatted": "6:36 /km",
+        "ProfileUrl": "",
+        "Points": 20,
+        "MonthlyTargetKm": 25,
+        "TargetProgressPct": 20,
+        "EffortRank": 51,
+        "EffortScore": 28,
+        "PacingStatus": "\uD83D\uDFE1 In Progress"
+      },
+      {
+        "Rank": 48,
+        "AthleteName": "Christopher Barfoot \uD83C\uDFF3\uFE0F\uD83C\uDF08",
+        "DistanceKm": 5,
+        "ActivitiesCount": 1,
+        "LongestActivityKm": 5,
+        "ElevationGainM": 40,
+        "PaceFormatted": "6:33 /km",
+        "ProfileUrl": "",
+        "Points": 20,
+        "MonthlyTargetKm": 25,
+        "TargetProgressPct": 20,
+        "EffortRank": 52,
+        "EffortScore": 28,
+        "PacingStatus": "\uD83D\uDFE1 In Progress"
+      },
+      {
+        "Rank": 49,
+        "AthleteName": "Sania Bafna",
+        "DistanceKm": 5,
+        "ActivitiesCount": 1,
+        "LongestActivityKm": 5,
+        "ElevationGainM": 8,
+        "PaceFormatted": "7:51 /km",
+        "ProfileUrl": "",
+        "Points": 20,
+        "MonthlyTargetKm": 25,
+        "TargetProgressPct": 20,
+        "EffortRank": 53,
+        "EffortScore": 28,
+        "PacingStatus": "\uD83D\uDFE1 In Progress"
+      },
+      {
+        "Rank": 50,
+        "AthleteName": "Neil Prestidge",
+        "DistanceKm": 4.9,
+        "ActivitiesCount": 1,
+        "LongestActivityKm": 4.9,
+        "ElevationGainM": 55,
+        "PaceFormatted": "6:49 /km",
+        "ProfileUrl": "",
+        "Points": 24.5,
+        "MonthlyTargetKm": 20,
+        "TargetProgressPct": 24.500000000000004,
+        "EffortRank": 14,
+        "EffortScore": 34.300000000000004,
+        "PacingStatus": "\uD83D\uDFE2 On Track"
+      },
+      {
+        "Rank": 51,
+        "AthleteName": "Nick Millward",
+        "DistanceKm": 4.8,
+        "ActivitiesCount": 1,
+        "LongestActivityKm": 4.8,
+        "ElevationGainM": 15,
+        "PaceFormatted": "5:03 /km",
+        "ProfileUrl": "",
+        "Points": 24,
+        "MonthlyTargetKm": 20,
+        "TargetProgressPct": 24,
+        "EffortRank": 18,
+        "EffortScore": 33.6,
+        "PacingStatus": "\uD83D\uDFE2 On Track"
+      },
+      {
+        "Rank": 52,
+        "AthleteName": "Tommy Hill",
+        "DistanceKm": 4.8,
+        "ActivitiesCount": 1,
+        "LongestActivityKm": 4.8,
+        "ElevationGainM": 32,
+        "PaceFormatted": "6:12 /km",
+        "ProfileUrl": "",
+        "Points": 24,
+        "MonthlyTargetKm": 20,
+        "TargetProgressPct": 24,
+        "EffortRank": 19,
+        "EffortScore": 33.6,
+        "PacingStatus": "\uD83D\uDFE2 On Track"
+      },
+      {
+        "Rank": 53,
+        "AthleteName": "Ramani Mutyam",
+        "DistanceKm": 4.3,
+        "ActivitiesCount": 1,
+        "LongestActivityKm": 4.3,
+        "ElevationGainM": 34,
+        "PaceFormatted": "8:51 /km",
+        "ProfileUrl": "",
+        "Points": 21.5,
+        "MonthlyTargetKm": 20,
+        "TargetProgressPct": 21.5,
+        "EffortRank": 26,
+        "EffortScore": 30.1,
+        "PacingStatus": "\uD83D\uDFE1 In Progress"
+      },
+      {
+        "Rank": 54,
+        "AthleteName": "Hayley Bellizia",
+        "DistanceKm": 4.3,
+        "ActivitiesCount": 1,
+        "LongestActivityKm": 4.3,
+        "ElevationGainM": 36,
+        "PaceFormatted": "8:17 /km",
+        "ProfileUrl": "",
+        "Points": 21.5,
+        "MonthlyTargetKm": 20,
+        "TargetProgressPct": 21.5,
+        "EffortRank": 27,
+        "EffortScore": 30.1,
+        "PacingStatus": "\uD83D\uDFE1 In Progress"
+      },
+      {
+        "Rank": 55,
+        "AthleteName": "tom dawson",
+        "DistanceKm": 4.2,
+        "ActivitiesCount": 1,
+        "LongestActivityKm": 4.2,
+        "ElevationGainM": 0,
+        "PaceFormatted": "9:11 /km",
+        "ProfileUrl": "",
+        "Points": 21,
+        "MonthlyTargetKm": 20,
+        "TargetProgressPct": 21.000000000000004,
+        "EffortRank": 29,
+        "EffortScore": 29.400000000000006,
+        "PacingStatus": "\uD83D\uDFE1 In Progress"
+      },
+      {
+        "Rank": 56,
+        "AthleteName": "Adri\u00E1n Nieves",
+        "DistanceKm": 4,
+        "ActivitiesCount": 1,
+        "LongestActivityKm": 4,
+        "ElevationGainM": 17,
+        "PaceFormatted": "6:18 /km",
+        "ProfileUrl": "",
+        "Points": 20,
+        "MonthlyTargetKm": 20,
+        "TargetProgressPct": 20,
+        "EffortRank": 54,
+        "EffortScore": 28,
+        "PacingStatus": "\uD83D\uDFE1 In Progress"
+      },
+      {
+        "Rank": 57,
+        "AthleteName": "Gabriel Stirling",
+        "DistanceKm": 1.5,
+        "ActivitiesCount": 1,
+        "LongestActivityKm": 1.5,
+        "ElevationGainM": 7,
+        "PaceFormatted": "5:29 /km",
+        "ProfileUrl": "",
+        "Points": 15,
+        "MonthlyTargetKm": 10,
+        "TargetProgressPct": 15,
+        "EffortRank": 56,
+        "EffortScore": 21,
+        "PacingStatus": "\uD83D\uDFE1 In Progress"
       }
     ]
   },
@@ -254,7 +946,12 @@
         "ElevationGainM": 560,
         "PaceFormatted": "4:38 /km",
         "ProfileUrl": "",
-        "Points": 102.1
+        "Points": 102.1,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 72.1,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 2,
@@ -265,7 +962,12 @@
         "ElevationGainM": 410,
         "PaceFormatted": "5:02 /km",
         "ProfileUrl": "",
-        "Points": 81.5
+        "Points": 81.5,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 58.5,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 3,
@@ -276,7 +978,12 @@
         "ElevationGainM": 360,
         "PaceFormatted": "4:48 /km",
         "ProfileUrl": "",
-        "Points": 73.4
+        "Points": 73.4,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 53.400000000000006,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 4,
@@ -287,7 +994,12 @@
         "ElevationGainM": 270,
         "PaceFormatted": "5:25 /km",
         "ProfileUrl": "",
-        "Points": 63
+        "Points": 63,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 46,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 5,
@@ -298,7 +1010,12 @@
         "ElevationGainM": 280,
         "PaceFormatted": "5:08 /km",
         "ProfileUrl": "",
-        "Points": 58.2
+        "Points": 58.2,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 43.2,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 6,
@@ -309,7 +1026,12 @@
         "ElevationGainM": 220,
         "PaceFormatted": "5:15 /km",
         "ProfileUrl": "",
-        "Points": 52.8
+        "Points": 52.8,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 39.8,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 7,
@@ -320,7 +1042,12 @@
         "ElevationGainM": 190,
         "PaceFormatted": "5:30 /km",
         "ProfileUrl": "",
-        "Points": 47.5
+        "Points": 47.5,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 36.5,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 8,
@@ -331,7 +1058,12 @@
         "ElevationGainM": 180,
         "PaceFormatted": "5:28 /km",
         "ProfileUrl": "",
-        "Points": 41
+        "Points": 41,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 32,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 9,
@@ -342,7 +1074,12 @@
         "ElevationGainM": 145,
         "PaceFormatted": "5:42 /km",
         "ProfileUrl": "",
-        "Points": 36.4
+        "Points": 36.4,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 29.4,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 10,
@@ -353,7 +1090,12 @@
         "ElevationGainM": 140,
         "PaceFormatted": "5:25 /km",
         "ProfileUrl": "",
-        "Points": 33.5
+        "Points": 33.5,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 27.500000000000004,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 11,
@@ -364,7 +1106,12 @@
         "ElevationGainM": 130,
         "PaceFormatted": "5:40 /km",
         "ProfileUrl": "",
-        "Points": 30
+        "Points": 30,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 25,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 12,
@@ -375,7 +1122,12 @@
         "ElevationGainM": 115,
         "PaceFormatted": "5:42 /km",
         "ProfileUrl": "",
-        "Points": 22.8
+        "Points": 22.8,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 22.8,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 13,
@@ -386,7 +1138,12 @@
         "ElevationGainM": 105,
         "PaceFormatted": "5:52 /km",
         "ProfileUrl": "",
-        "Points": 21
+        "Points": 21,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 21,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 14,
@@ -397,7 +1154,12 @@
         "ElevationGainM": 95,
         "PaceFormatted": "5:58 /km",
         "ProfileUrl": "",
-        "Points": 19.5
+        "Points": 19.5,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 19.5,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 15,
@@ -408,7 +1170,12 @@
         "ElevationGainM": 90,
         "PaceFormatted": "6:05 /km",
         "ProfileUrl": "",
-        "Points": 18.2
+        "Points": 18.2,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 18.2,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 16,
@@ -419,7 +1186,12 @@
         "ElevationGainM": 80,
         "PaceFormatted": "6:12 /km",
         "ProfileUrl": "",
-        "Points": 16.5
+        "Points": 16.5,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 16.5,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 17,
@@ -430,7 +1202,12 @@
         "ElevationGainM": 85,
         "PaceFormatted": "5:58 /km",
         "ProfileUrl": "",
-        "Points": 15.8
+        "Points": 15.8,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 15.8,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 18,
@@ -441,7 +1218,12 @@
         "ElevationGainM": 75,
         "PaceFormatted": "5:48 /km",
         "ProfileUrl": "",
-        "Points": 14
+        "Points": 14,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 14.000000000000002,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 19,
@@ -452,7 +1234,12 @@
         "ElevationGainM": 60,
         "PaceFormatted": "6:08 /km",
         "ProfileUrl": "",
-        "Points": 11.5
+        "Points": 11.5,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 11.5,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 20,
@@ -463,7 +1250,12 @@
         "ElevationGainM": 45,
         "PaceFormatted": "6:32 /km",
         "ProfileUrl": "",
-        "Points": 9.5
+        "Points": 9.5,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 9.5,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       }
     ]
   },
@@ -488,7 +1280,12 @@
         "ElevationGainM": 580,
         "PaceFormatted": "4:58 /km",
         "ProfileUrl": "",
-        "Points": 104
+        "Points": 104,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 74,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 2,
@@ -499,7 +1296,12 @@
         "ElevationGainM": 530,
         "PaceFormatted": "4:40 /km",
         "ProfileUrl": "",
-        "Points": 93.5
+        "Points": 93.5,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 70.5,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 3,
@@ -510,7 +1312,12 @@
         "ElevationGainM": 390,
         "PaceFormatted": "4:45 /km",
         "ProfileUrl": "",
-        "Points": 76.2
+        "Points": 76.2,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 56.2,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 4,
@@ -521,7 +1328,12 @@
         "ElevationGainM": 320,
         "PaceFormatted": "5:00 /km",
         "ProfileUrl": "",
-        "Points": 65
+        "Points": 65,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 48,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 5,
@@ -532,7 +1344,12 @@
         "ElevationGainM": 250,
         "PaceFormatted": "5:28 /km",
         "ProfileUrl": "",
-        "Points": 59.5
+        "Points": 59.5,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 44.5,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 6,
@@ -543,7 +1360,12 @@
         "ElevationGainM": 240,
         "PaceFormatted": "5:12 /km",
         "ProfileUrl": "",
-        "Points": 54
+        "Points": 54,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 41,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 7,
@@ -554,7 +1376,12 @@
         "ElevationGainM": 200,
         "PaceFormatted": "5:25 /km",
         "ProfileUrl": "",
-        "Points": 46.8
+        "Points": 46.8,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 35.8,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 8,
@@ -565,7 +1392,12 @@
         "ElevationGainM": 170,
         "PaceFormatted": "5:32 /km",
         "ProfileUrl": "",
-        "Points": 42.5
+        "Points": 42.5,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 33.5,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 9,
@@ -576,7 +1408,12 @@
         "ElevationGainM": 150,
         "PaceFormatted": "5:38 /km",
         "ProfileUrl": "",
-        "Points": 35.4
+        "Points": 35.4,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 28.4,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 10,
@@ -587,7 +1424,12 @@
         "ElevationGainM": 130,
         "PaceFormatted": "5:30 /km",
         "ProfileUrl": "",
-        "Points": 32
+        "Points": 32,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 26,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 11,
@@ -598,7 +1440,12 @@
         "ElevationGainM": 125,
         "PaceFormatted": "5:48 /km",
         "ProfileUrl": "",
-        "Points": 25.5
+        "Points": 25.5,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 25.5,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 12,
@@ -609,7 +1456,12 @@
         "ElevationGainM": 120,
         "PaceFormatted": "5:40 /km",
         "ProfileUrl": "",
-        "Points": 23.5
+        "Points": 23.5,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 23.5,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 13,
@@ -620,7 +1472,12 @@
         "ElevationGainM": 110,
         "PaceFormatted": "5:50 /km",
         "ProfileUrl": "",
-        "Points": 22
+        "Points": 22,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 22,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 14,
@@ -631,7 +1488,12 @@
         "ElevationGainM": 100,
         "PaceFormatted": "5:56 /km",
         "ProfileUrl": "",
-        "Points": 20
+        "Points": 20,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 20,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 15,
@@ -642,7 +1504,12 @@
         "ElevationGainM": 95,
         "PaceFormatted": "6:02 /km",
         "ProfileUrl": "",
-        "Points": 19
+        "Points": 19,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 19,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 16,
@@ -653,7 +1520,12 @@
         "ElevationGainM": 90,
         "PaceFormatted": "5:55 /km",
         "ProfileUrl": "",
-        "Points": 17.5
+        "Points": 17.5,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 17.5,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 17,
@@ -664,7 +1536,12 @@
         "ElevationGainM": 75,
         "PaceFormatted": "6:15 /km",
         "ProfileUrl": "",
-        "Points": 15.5
+        "Points": 15.5,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 15.5,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 18,
@@ -675,7 +1552,12 @@
         "ElevationGainM": 70,
         "PaceFormatted": "5:52 /km",
         "ProfileUrl": "",
-        "Points": 13.2
+        "Points": 13.2,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 13.200000000000001,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 19,
@@ -686,7 +1568,12 @@
         "ElevationGainM": 55,
         "PaceFormatted": "6:10 /km",
         "ProfileUrl": "",
-        "Points": 11
+        "Points": 11,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 11,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 20,
@@ -697,7 +1584,12 @@
         "ElevationGainM": 50,
         "PaceFormatted": "6:28 /km",
         "ProfileUrl": "",
-        "Points": 10.2
+        "Points": 10.2,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 10.2,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       }
     ]
   },
@@ -722,7 +1614,12 @@
         "ElevationGainM": 600,
         "PaceFormatted": "4:35 /km",
         "ProfileUrl": "",
-        "Points": 106
+        "Points": 106,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 76,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 2,
@@ -733,7 +1630,12 @@
         "ElevationGainM": 540,
         "PaceFormatted": "4:55 /km",
         "ProfileUrl": "",
-        "Points": 94.2
+        "Points": 94.2,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 71.2,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 3,
@@ -744,7 +1646,12 @@
         "ElevationGainM": 410,
         "PaceFormatted": "4:42 /km",
         "ProfileUrl": "",
-        "Points": 78
+        "Points": 78,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 57.99999999999999,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 4,
@@ -755,7 +1662,12 @@
         "ElevationGainM": 350,
         "PaceFormatted": "4:58 /km",
         "ProfileUrl": "",
-        "Points": 67.5
+        "Points": 67.5,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 50.5,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 5,
@@ -766,7 +1678,12 @@
         "ElevationGainM": 280,
         "PaceFormatted": "5:22 /km",
         "ProfileUrl": "",
-        "Points": 62
+        "Points": 62,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 47,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 6,
@@ -777,7 +1694,12 @@
         "ElevationGainM": 260,
         "PaceFormatted": "5:10 /km",
         "ProfileUrl": "",
-        "Points": 56.5
+        "Points": 56.5,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 43.5,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 7,
@@ -788,7 +1710,12 @@
         "ElevationGainM": 220,
         "PaceFormatted": "5:20 /km",
         "ProfileUrl": "",
-        "Points": 49
+        "Points": 49,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 38,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 8,
@@ -799,7 +1726,12 @@
         "ElevationGainM": 180,
         "PaceFormatted": "5:30 /km",
         "ProfileUrl": "",
-        "Points": 44
+        "Points": 44,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 35,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 9,
@@ -810,7 +1742,12 @@
         "ElevationGainM": 160,
         "PaceFormatted": "5:35 /km",
         "ProfileUrl": "",
-        "Points": 37.2
+        "Points": 37.2,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 30.2,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 10,
@@ -821,7 +1758,12 @@
         "ElevationGainM": 140,
         "PaceFormatted": "5:42 /km",
         "ProfileUrl": "",
-        "Points": 34
+        "Points": 34,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 28.000000000000004,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 11,
@@ -832,7 +1774,12 @@
         "ElevationGainM": 135,
         "PaceFormatted": "5:28 /km",
         "ProfileUrl": "",
-        "Points": 32
+        "Points": 32,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 27,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 12,
@@ -843,7 +1790,12 @@
         "ElevationGainM": 125,
         "PaceFormatted": "5:38 /km",
         "ProfileUrl": "",
-        "Points": 30
+        "Points": 30,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 25,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 13,
@@ -854,7 +1806,12 @@
         "ElevationGainM": 115,
         "PaceFormatted": "5:48 /km",
         "ProfileUrl": "",
-        "Points": 23.5
+        "Points": 23.5,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 23.5,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 14,
@@ -865,7 +1822,12 @@
         "ElevationGainM": 105,
         "PaceFormatted": "5:54 /km",
         "ProfileUrl": "",
-        "Points": 21
+        "Points": 21,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 21,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 15,
@@ -876,7 +1838,12 @@
         "ElevationGainM": 100,
         "PaceFormatted": "6:00 /km",
         "ProfileUrl": "",
-        "Points": 20.2
+        "Points": 20.2,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 20.2,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 16,
@@ -887,7 +1854,12 @@
         "ElevationGainM": 95,
         "PaceFormatted": "5:52 /km",
         "ProfileUrl": "",
-        "Points": 18
+        "Points": 18,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 18,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 17,
@@ -898,7 +1870,12 @@
         "ElevationGainM": 80,
         "PaceFormatted": "6:12 /km",
         "ProfileUrl": "",
-        "Points": 16
+        "Points": 16,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 16,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 18,
@@ -909,7 +1886,12 @@
         "ElevationGainM": 75,
         "PaceFormatted": "5:50 /km",
         "ProfileUrl": "",
-        "Points": 14.5
+        "Points": 14.5,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 14.499999999999998,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 19,
@@ -920,7 +1902,12 @@
         "ElevationGainM": 60,
         "PaceFormatted": "6:08 /km",
         "ProfileUrl": "",
-        "Points": 12
+        "Points": 12,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 12,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       },
       {
         "Rank": 20,
@@ -931,7 +1918,12 @@
         "ElevationGainM": 55,
         "PaceFormatted": "6:25 /km",
         "ProfileUrl": "",
-        "Points": 11
+        "Points": 11,
+        "MonthlyTargetKm": 100,
+        "TargetProgressPct": 11,
+        "EffortRank": 0,
+        "EffortScore": 0,
+        "PacingStatus": "On Track"
       }
     ]
   }

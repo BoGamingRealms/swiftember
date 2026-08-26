@@ -119,14 +119,14 @@ public class SwiftemberReportGenerator
                         table.ColumnsDefinition(columns =>
                         {
                             columns.ConstantColumn(16);   // Pos / Effort Rank
-                            columns.RelativeColumn(3.6f); // Athlete Name
-                            columns.ConstantColumn(52);   // Target
-                            columns.ConstantColumn(52);   // Distance
-                            columns.ConstantColumn(46);   // Target %
-                            columns.ConstantColumn(68);   // Pacing Status
-                            columns.ConstantColumn(30);   // Runs
-                            columns.ConstantColumn(48);   // Longest
-                            columns.ConstantColumn(42);   // Elev
+                            columns.RelativeColumn(1.8f); // Athlete Name (reduced by 50%)
+                            columns.ConstantColumn(56);   // Target
+                            columns.ConstantColumn(56);   // Distance
+                            columns.ConstantColumn(50);   // Target %
+                            columns.ConstantColumn(74);   // Pacing Status
+                            columns.ConstantColumn(32);   // Runs
+                            columns.ConstantColumn(52);   // Longest
+                            columns.ConstantColumn(46);   // Elev
                         });
 
                         table.Header(header =>
@@ -175,14 +175,14 @@ public class SwiftemberReportGenerator
                             table.ColumnsDefinition(columns =>
                             {
                                 columns.ConstantColumn(16);   // Pos / Effort Rank
-                                columns.RelativeColumn(3.6f); // Athlete Name
-                                columns.ConstantColumn(52);   // Target
-                                columns.ConstantColumn(55);   // Total Dist
-                                columns.ConstantColumn(46);   // Target %
-                                columns.ConstantColumn(68);   // Status
-                                columns.ConstantColumn(35);   // Weeks
-                                columns.ConstantColumn(30);   // Runs
-                                columns.ConstantColumn(42);   // Elev
+                                columns.RelativeColumn(1.8f); // Athlete Name (reduced by 50%)
+                                columns.ConstantColumn(56);   // Target
+                                columns.ConstantColumn(58);   // Total Dist
+                                columns.ConstantColumn(50);   // Target %
+                                columns.ConstantColumn(74);   // Status
+                                columns.ConstantColumn(36);   // Weeks
+                                columns.ConstantColumn(32);   // Runs
+                                columns.ConstantColumn(46);   // Elev
                             });
 
                             table.Header(header =>
