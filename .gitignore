@@ -2,3 +2,4 @@ bin/
 obj/
 *.user
 .DS_Store
+tools/temp_report_*.html
