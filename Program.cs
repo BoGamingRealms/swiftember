@@ -52,7 +52,7 @@ class Program
 
         string? inputFile = null;
         int weekNumber = 1;
-        bool generateExcel = true;
+        bool generateExcel = false;
         bool generatePdf = true;
         bool useApi = false;
         bool useCookie = false;
@@ -89,6 +89,10 @@ class Program
             else if ((arg.Equals("--url", StringComparison.OrdinalIgnoreCase) || arg.Equals("-u", StringComparison.OrdinalIgnoreCase)) && i + 1 < args.Length)
             {
                 onlineUrl = args[++i];
+            }
+            else if (arg.Equals("--excel", StringComparison.OrdinalIgnoreCase))
+            {
+                generateExcel = true;
             }
             else if (arg.Equals("--no-excel", StringComparison.OrdinalIgnoreCase))
             {
@@ -142,10 +146,23 @@ class Program
         {
             if (string.IsNullOrEmpty(inputFile))
             {
-                inputFile = Path.Combine(Directory.GetCurrentDirectory(), "data", $"sample_week{weekNumber}.csv");
-                if (!File.Exists(inputFile))
+                string realTsv = Path.Combine(Directory.GetCurrentDirectory(), "data", $"strava_real_week{weekNumber}.tsv");
+                if (!File.Exists(realTsv))
                 {
-                    inputFile = Path.Combine(baseDir, "data", $"sample_week{weekNumber}.csv");
+                    realTsv = Path.Combine(baseDir, "data", $"strava_real_week{weekNumber}.tsv");
+                }
+
+                if (File.Exists(realTsv))
+                {
+                    inputFile = realTsv;
+                }
+                else
+                {
+                    inputFile = Path.Combine(Directory.GetCurrentDirectory(), "data", $"sample_week{weekNumber}.csv");
+                    if (!File.Exists(inputFile))
+                    {
+                        inputFile = Path.Combine(baseDir, "data", $"sample_week{weekNumber}.csv");
+                    }
                 }
             }
 

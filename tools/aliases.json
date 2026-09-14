@@ -1,0 +1,17 @@
+{
+  "description": "Known mappings from Strava display names to Swiftember registered names",
+  "aliases": {
+    "josh savage": "Joshua Savage",
+    "joshua savage": "Joshua Savage",
+    "tom dawson": "Tom dawson",
+    "jimmy simpson": "Jimmy Simpson",
+    "john simpson": "John Simpson",
+    "ian allen": "Ian Allen 🏳️🌈",
+    "ian allen 🏳️🌈": "Ian Allen 🏳️🌈",
+    "bradley m": "Bradley M 🏳️🌈💪🏃‍♂️",
+    "bradley m 🏳️🌈💪🏃♂️": "Bradley M 🏳️🌈💪🏃‍♂️",
+    "adrian nieves": "Adrián Nieves",
+    "adrian nieves adrian nieves": "Adrián Nieves",
+    "ibrahim subdurally": "Ibrahim Subdurally-Plon"
+  }
+}

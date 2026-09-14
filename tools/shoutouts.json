@@ -1,0 +1,69 @@
+{
+  "description": "Weekly Swiftember member shout-outs and special event highlights",
+  "week_1": [
+    {
+      "name": "Jack Dean",
+      "tag": "🏃‍♂️ Chicago Marathon",
+      "message": "Training hard and putting in big miles in preparation for the Chicago Marathon!"
+    },
+    {
+      "name": "Alice Wilkinson & Jake Colbourn",
+      "tag": "🏔 50-Mile Ultra (Sep 12)",
+      "message": "Massive good luck to Alice & Jake who are taking on their epic 50-mile Ultra Marathon on September 12th!"
+    },
+    {
+      "name": "Neesa",
+      "tag": "💪 Gym & S&C",
+      "message": "Putting in the hard yards with strength and conditioning sessions at the gym to boost power and support her running!"
+    },
+    {
+      "name": "Chris W",
+      "tag": "🔥 Streak Master",
+      "message": "Keeping the running streak blazing strong while adding extra mileage and longer runs to the calendar!"
+    }
+  ],
+  "week_2": [
+    {
+      "name": "Adrián Nieves",
+      "tag": "🇪🇸 Seville 8 km Preparation",
+      "message": "Currently in an injury recovery phase, Adrián is steadily rebuilding fitness with a focus on completing an 8 km run in Seville at the end of September. The club extends its best wishes for his continued recovery and upcoming event."
+    },
+    {
+      "name": "Barry Cassidy",
+      "tag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿 Great Scottish Run Half Marathon",
+      "message": "Barry is managing his return from injury with structured training in preparation for the Great Scottish Run on October 4th. His disciplined approach to rehabilitation and mileage provides a solid foundation for the half marathon in Glasgow."
+    },
+    {
+      "name": "Jon Williams",
+      "tag": "Injury Recovery Progress",
+      "message": "Jon has demonstrated solid progress while recovering from injury, logging 20.0 km in Week 2 to reach 25.0 km total (71.4% of his 35 km monthly target). His consistent and measured approach also earned him the Week 2 Rising Swift award."
+    },
+    {
+      "name": "Ian Bush",
+      "tag": "Ankle Rehabilitation",
+      "message": "Ian continues his steady recovery from an ankle injury, pacing his return carefully. He has logged 30.9 km to date, completing 61.8% of his 50 km monthly pledge."
+    },
+    {
+      "name": "Simon Stockdale",
+      "tag": "Yorkshire Marathon Training",
+      "message": "Simon is building mileage toward the Yorkshire Marathon on October 18th while working toward his 150 km Swiftember pledge. With 57.8 km completed across the first two weeks, his endurance training remains well underway."
+    },
+    {
+      "name": "Jack Whitfield",
+      "tag": "Monthly Target Completed",
+      "message": "Jack joined the challenge this week and has already reached his monthly pledge, completing 26.3 km against his 25 km target (105.2%). A commendable effort in his opening fortnight."
+    },
+    {
+      "name": "Alice Wilkinson",
+      "tag": "50-Mile Ultra Marathon",
+      "message": "Congratulations to Alice on completing her 50-mile Ultra Marathon on September 12th. She logged an impressive 83.0 km during Week 2, achieving 265.6% of her weekly quota and earning Road Warrior honors."
+    },
+    {
+      "name": "Jake Colbourn",
+      "tag": "50-Mile Ultra Marathon",
+      "message": "Congratulations to Jake on finishing his 50-mile Ultra Marathon on September 12th. His week included an 81.9 km long run, 109.0 km total distance, and 1,731 m of elevation gain, earning Mountain Goat honors."
+    }
+  ],
+  "week_3": [],
+  "week_4": []
+}
