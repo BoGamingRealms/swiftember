@@ -279,13 +279,13 @@
       "longest": 32.1,
       "pace": "6:57 /km",
       "elev": "159 m",
-      "monthly_target": 125.0,
-      "pct_weekly": 102.72,
-      "pct_monthly": 51.36,
-      "status": "🟢 On Track",
+      "monthly_target": 100.0,
+      "pct_weekly": 128.4,
+      "pct_monthly": 64.2,
+      "status": "🟢 Ahead",
       "cum_distance": 64.2,
       "cum_runs": 2,
-      "cum_status": "🟢 On Track"
+      "cum_status": "🟢 Ahead"
     },
     "Richard Lakin": {
       "distance": 32.0,
@@ -293,10 +293,10 @@
       "longest": 32.0,
       "pace": "6:58 /km",
       "elev": "127 m",
-      "monthly_target": 125.0,
-      "pct_weekly": 102.4,
-      "pct_monthly": 58.32,
-      "status": "🟢 On Track",
+      "monthly_target": 100.0,
+      "pct_weekly": 128.0,
+      "pct_monthly": 72.9,
+      "status": "🟢 Ahead",
       "cum_distance": 72.9,
       "cum_runs": 3,
       "cum_status": "🟢 Ahead"
