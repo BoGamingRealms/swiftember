@@ -1,11 +1,11 @@
 {
   "week": 1,
-  "total_registered": 60,
-  "active_count": 53,
-  "total_distance": 1505.13,
-  "total_runs": 163,
-  "cum_distance": 1505.13,
-  "cum_runs": 163,
+  "total_registered": 64,
+  "active_count": 55,
+  "total_distance": 1578.13,
+  "total_runs": 166,
+  "cum_distance": 1578.13,
+  "cum_runs": 166,
   "runners": {
     "Bo Wang": {
       "distance": 86.1,
@@ -41,9 +41,9 @@
       "longest": 20.0,
       "pace": "7:15 /km",
       "elev": "333 m",
-      "monthly_target": 570.0,
-      "pct_weekly": 52.28,
-      "pct_monthly": 13.07,
+      "monthly_target": 506.0,
+      "pct_weekly": 58.89,
+      "pct_monthly": 14.72,
       "status": "🔴 Behind",
       "cum_distance": 74.5,
       "cum_runs": 6,
@@ -189,6 +189,20 @@
       "cum_runs": 5,
       "cum_status": "🟢 Ahead"
     },
+    "Richard Lakin": {
+      "distance": 40.9,
+      "runs": 2,
+      "longest": 32.0,
+      "pace": "6:48 /km",
+      "elev": "208 m",
+      "monthly_target": 125.0,
+      "pct_weekly": 130.88,
+      "pct_monthly": 32.72,
+      "status": "🟢 Ahead",
+      "cum_distance": 40.9,
+      "cum_runs": 2,
+      "cum_status": "🟢 Ahead"
+    },
     "Richard Wilkes": {
       "distance": 38.0,
       "runs": 2,
@@ -216,6 +230,20 @@
       "cum_distance": 36.4,
       "cum_runs": 5,
       "cum_status": "🟢 Ahead"
+    },
+    "Michael Lakin": {
+      "distance": 32.1,
+      "runs": 1,
+      "longest": 32.1,
+      "pace": "7:04 /km",
+      "elev": "160 m",
+      "monthly_target": 125.0,
+      "pct_weekly": 102.72,
+      "pct_monthly": 25.68,
+      "status": "🟢 On Track",
+      "cum_distance": 32.1,
+      "cum_runs": 1,
+      "cum_status": "🟢 On Track"
     },
     "Barry Cassidy": {
       "distance": 29.6,
@@ -447,13 +475,13 @@
       "longest": 10.1,
       "pace": "6:07 /km",
       "elev": "103 m",
-      "monthly_target": 100.0,
-      "pct_weekly": 69.2,
-      "pct_monthly": 17.3,
-      "status": "🟡 Slightly Behind",
+      "monthly_target": 50.0,
+      "pct_weekly": 138.4,
+      "pct_monthly": 34.6,
+      "status": "🟢 Ahead",
       "cum_distance": 17.3,
       "cum_runs": 2,
-      "cum_status": "🟡 Slightly Behind"
+      "cum_status": "🟢 Ahead"
     },
     "Benjamin Lane": {
       "distance": 17.3,
@@ -643,13 +671,13 @@
       "longest": 5.0,
       "pace": "-",
       "elev": "-",
-      "monthly_target": 25.0,
-      "pct_weekly": 80.0,
-      "pct_monthly": 20.0,
-      "status": "🟡 Slightly Behind",
+      "monthly_target": 35.0,
+      "pct_weekly": 57.14,
+      "pct_monthly": 14.29,
+      "status": "🔴 Behind",
       "cum_distance": 5.0,
       "cum_runs": 1,
-      "cum_status": "🟡 Slightly Behind"
+      "cum_status": "🔴 Behind"
     },
     "Lex Hooper": {
       "distance": 6.72,
@@ -749,6 +777,20 @@
       "cum_runs": 1,
       "cum_status": "🟢 On Track"
     },
+    "Chris Dennison": {
+      "distance": 0.0,
+      "runs": 0,
+      "longest": 0.0,
+      "pace": "-",
+      "elev": "-",
+      "monthly_target": 25.0,
+      "pct_weekly": 0.0,
+      "pct_monthly": 0.0,
+      "status": "⚪️ 0 km Logged",
+      "cum_distance": 0,
+      "cum_runs": 0,
+      "cum_status": "⚪️ 0 km Logged"
+    },
     "Dean Haycock": {
       "distance": 0.0,
       "runs": 0,
@@ -826,6 +868,20 @@
       "pace": "-",
       "elev": "-",
       "monthly_target": 50.0,
+      "pct_weekly": 0.0,
+      "pct_monthly": 0.0,
+      "status": "⚪️ 0 km Logged",
+      "cum_distance": 0,
+      "cum_runs": 0,
+      "cum_status": "⚪️ 0 km Logged"
+    },
+    "Marvin Lo": {
+      "distance": 0.0,
+      "runs": 0,
+      "longest": 0.0,
+      "pace": "-",
+      "elev": "-",
+      "monthly_target": 75.0,
       "pct_weekly": 0.0,
       "pct_monthly": 0.0,
       "status": "⚪️ 0 km Logged",

@@ -643,9 +643,9 @@ def generate_html_report(matched_runners, week_num=1, badge_subtitle="Official S
             letter-spacing: 0.5px;
         }}
         table.full-table td {{
-            padding: 2.2px 8px;
+            padding: 1.6px 8px;
             font-size: 16px;
-            line-height: 1.18;
+            line-height: 1.15;
         }}
         table.full-table .progress-val {{
             font-size: 13.5px;

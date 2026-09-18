@@ -46,6 +46,10 @@
       "target_km": 50.0
     },
     {
+      "name": "Chris Dennison",
+      "target_km": 25.0
+    },
+    {
       "name": "Chris W",
       "target_km": 50.0
     },
@@ -174,6 +178,10 @@
       "target_km": 150.0
     },
     {
+      "name": "Marvin Lo",
+      "target_km": 75.0
+    },
+    {
       "name": "Matt Mackinnon-Coleman",
       "target_km": 100.0
     },
@@ -184,6 +192,10 @@
     {
       "name": "Max D",
       "target_km": 25.0
+    },
+    {
+      "name": "Michael Lakin",
+      "target_km": 125.0
     },
     {
       "name": "Neesa",
@@ -200,6 +212,10 @@
     {
       "name": "Phil Deeley",
       "target_km": 75.0
+    },
+    {
+      "name": "Richard Lakin",
+      "target_km": 125.0
     },
     {
       "name": "Richard Wilkes",
