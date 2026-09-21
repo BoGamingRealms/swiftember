@@ -699,13 +699,13 @@
       "longest": 12.87,
       "pace": "-",
       "elev": "-",
-      "monthly_target": 75.0,
-      "pct_weekly": 68.64,
-      "pct_monthly": 17.16,
-      "status": "🟡 Slightly Behind",
+      "monthly_target": 50.0,
+      "pct_weekly": 102.96,
+      "pct_monthly": 25.74,
+      "status": "🟢 On Track",
       "cum_distance": 12.87,
       "cum_runs": 1,
-      "cum_status": "🟡 Slightly Behind"
+      "cum_status": "🟢 On Track"
     },
     "Rimon Ali": {
       "distance": 6.45,

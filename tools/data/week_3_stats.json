@@ -867,13 +867,13 @@
       "longest": 0.0,
       "pace": "-",
       "elev": "-",
-      "monthly_target": 75.0,
+      "monthly_target": 50.0,
       "pct_weekly": 0.0,
-      "pct_monthly": 67.83,
+      "pct_monthly": 101.74,
       "status": "⚪️ 0 km Logged",
       "cum_distance": 50.87,
       "cum_runs": 2,
-      "cum_status": "🟢 On Track"
+      "cum_status": "🟢 Ahead"
     },
     "Simon Stockdale": {
       "distance": 0.0,
