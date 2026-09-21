@@ -94,8 +94,9 @@ Rank	Athlete	Distance	Runs	Longest Run	Average Pace	Elev Gain
 93	Luke Turner-Dawson Luke Turner-Dawson	6.3 km	1	6.3 km	5:42 /km	48 m
 94	James Horne James Horne	6.2 km	1	6.2 km	5:08 /km	--
 95	Adrián Nieves Adrián Nieves	5.9 km	1	5.9 km	6:00 /km	49 m
-96	Chris W Chris W	5.7 km	1	5.7 km	6:45 /km	49 m
+96	Chris W Chris W	14.3 km	1	14.3 km	6:45 /km	49 m
 97	Paul Gardiner Paul Gardiner	5.7 km	1	5.7 km	5:39 /km	61 m
 98	Tom Garlick Tom Garlick	5.6 km	1	5.6 km	5:22 /km	12 m
 99	Dilly Brainch Dilly Brainch	5.6 km	3	2.8 km	11:59 /km	102 m
 100	Michael Carthew Michael Carthew	5.4 km	1	5.4 km	6:11 /km	33 m
+101	Dean Haycock	8.0 km	1	8.0 km	-	-

@@ -1,11 +1,11 @@
 {
   "week": 3,
   "total_registered": 64,
-  "active_count": 47,
-  "total_distance": 1158.53,
-  "total_runs": 148,
-  "cum_distance": 4448.69,
-  "cum_runs": 486,
+  "active_count": 48,
+  "total_distance": 1175.13,
+  "total_runs": 149,
+  "cum_distance": 4465.29,
+  "cum_runs": 487,
   "runners": {
     "Jack Dean": {
       "distance": 74.3,
@@ -638,18 +638,18 @@
       "cum_status": "🟢 Ahead"
     },
     "Chris W": {
-      "distance": 5.7,
+      "distance": 14.3,
       "runs": 1,
-      "longest": 5.7,
+      "longest": 14.3,
       "pace": "6:45 /km",
       "elev": "49 m",
-      "monthly_target": 30.0,
-      "pct_weekly": 76.0,
-      "pct_monthly": 76.67,
-      "status": "🟡 Slightly Behind",
-      "cum_distance": 23.0,
+      "monthly_target": 50.0,
+      "pct_weekly": 114.4,
+      "pct_monthly": 63.2,
+      "status": "🟢 Ahead",
+      "cum_distance": 31.6,
       "cum_runs": 3,
-      "cum_status": "🟢 On Track"
+      "cum_status": "🟡 Slightly Behind"
     },
     "Tom Garlick": {
       "distance": 5.6,
@@ -664,6 +664,20 @@
       "cum_distance": 15.6,
       "cum_runs": 3,
       "cum_status": "🔴 Behind"
+    },
+    "Dean Haycock": {
+      "distance": 8.0,
+      "runs": 1,
+      "longest": 8.0,
+      "pace": "-",
+      "elev": "-",
+      "monthly_target": 25.0,
+      "pct_weekly": 128.0,
+      "pct_monthly": 51.88,
+      "status": "🟢 Ahead",
+      "cum_distance": 12.97,
+      "cum_runs": 2,
+      "cum_status": "🟡 Slightly Behind"
     },
     "Barry Cassidy": {
       "distance": 0.0,
@@ -706,20 +720,6 @@
       "cum_distance": 0.0,
       "cum_runs": 0,
       "cum_status": "⚪️ 0 km Logged"
-    },
-    "Dean Haycock": {
-      "distance": 0.0,
-      "runs": 0,
-      "longest": 0.0,
-      "pace": "-",
-      "elev": "-",
-      "monthly_target": 10.0,
-      "pct_weekly": 0.0,
-      "pct_monthly": 49.7,
-      "status": "⚪️ 0 km Logged",
-      "cum_distance": 4.97,
-      "cum_runs": 1,
-      "cum_status": "🟡 Slightly Behind"
     },
     "Ian Bush": {
       "distance": 0.0,
