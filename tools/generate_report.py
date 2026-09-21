@@ -800,17 +800,17 @@ def generate_html_report(matched_runners, week_num=1, badge_subtitle="Official S
             padding: 0;
         }}
         .berlin-hero {{
-            background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 60%, #312e81 100%);
+            background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 50%, #dbeafe 100%);
             border-radius: 9px;
             overflow: hidden;
-            color: #ffffff;
+            color: #1e293b;
             margin-bottom: 9px;
-            box-shadow: 0 4px 12px rgba(15, 23, 42, 0.15);
-            border: 1px solid #334155;
+            box-shadow: 0 4px 12px rgba(14, 165, 233, 0.12);
+            border: 1.5px solid #7dd3fc;
         }}
         .berlin-flag-stripe {{
-            height: 5px;
-            background: linear-gradient(90deg, #111827 0%, #111827 33.3%, #dc2626 33.3%, #dc2626 66.6%, #eab308 66.6%, #eab308 100%);
+            height: 6px;
+            background: linear-gradient(90deg, #000000 0%, #000000 33.3%, #dc2626 33.3%, #dc2626 66.6%, #eab308 66.6%, #eab308 100%);
         }}
         .berlin-hero-content {{
             padding: 10px 15px;
@@ -832,8 +832,9 @@ def generate_html_report(matched_runners, week_num=1, badge_subtitle="Official S
             text-transform: uppercase;
         }}
         .berlin-date-pill {{
-            background: rgba(255, 255, 255, 0.15);
-            color: #fde047;
+            background: #ffffff;
+            color: #0369a1;
+            border: 1px solid #bae6fd;
             font-size: 10px;
             font-weight: 700;
             padding: 2.5px 8.5px;
@@ -845,13 +846,13 @@ def generate_html_report(matched_runners, week_num=1, badge_subtitle="Official S
             font-size: {berlin_headline_font};
             font-weight: 800;
             letter-spacing: -0.4px;
-            color: #ffffff;
+            color: #0f172a;
             line-height: 1.2;
         }}
         .berlin-intro {{
             margin: 0;
             font-size: {berlin_intro_font};
-            color: #cbd5e1;
+            color: #334155;
             line-height: 1.38;
         }}
         .berlin-grid {{
