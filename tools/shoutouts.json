@@ -64,6 +64,47 @@
       "message": "Congratulations to Jake on finishing his 50-mile Ultra Marathon on September 12th. His week included an 81.9 km long run, 109.0 km total distance, and 1,731 m of elevation gain, earning Mountain Goat honors."
     }
   ],
-  "week_3": [],
+  "week_3": [
+    {
+      "name": "Richard Lakin",
+      "tag": "🎯 Monthly Target Completed",
+      "message": "Richard reached his 100 km monthly challenge pledge with a week to spare, logging 29.9 km in Week 3 to reach 102.8 km (102.8%). A fantastic effort across the first three weeks!"
+    },
+    {
+      "name": "Mark Blakeman",
+      "tag": "🎯 Monthly Target Completed",
+      "message": "Mark hit his ambitious 150 km monthly target in Week 3, recording 42.9 km across 5 runs to reach exactly 150.0 km (100.0%). Excellent consistency and pacing throughout the challenge."
+    },
+    {
+      "name": "Andrea Bohn",
+      "tag": "🌟 Rising Swift & Target Smashed",
+      "message": "Andrea logged an outstanding 18.1 km across 7 separate runs in Week 3, reaching 42.8 km total (171.2% of her 25 km target) and claiming Week 3 Rising Swift honors!"
+    },
+    {
+      "name": "Jack Dean",
+      "tag": "🏃‍♂️ Chicago Marathon Build & Road Warrior",
+      "message": "Jack led all registered Swiftember runners with 74.3 km this week—including a 32.0 km long run—taking Week 3 Road Warrior honors and advancing to 183.1 km MTD (91.6%)."
+    },
+    {
+      "name": "Daniel Bridge",
+      "tag": "🎯 Goal Setter Award",
+      "message": "Daniel produced a stellar 32.4 km week over 4 runs, achieving 172.8% of his weekly quota and earning the Goal Setter title to bring his MTD total to 62.5 km (83.3%)."
+    },
+    {
+      "name": "Jake Colbourn",
+      "tag": "⛰ Mountain Goat",
+      "message": "Following his 50-mile ultra, Jake maintained strong momentum with 43.8 km and 671 m of elevation gain across 8 runs, securing Mountain Goat honors for Week 3."
+    },
+    {
+      "name": "Benjamin Lane",
+      "tag": "⚡️ Speed Demon",
+      "message": "Benjamin set the week's benchmark on pace with a brisk 4:48 /km average across 18.0 km, earning the Speed Demon award and reaching 75.4 km MTD (75.4%)."
+    },
+    {
+      "name": "Adrián Nieves",
+      "tag": "🇪🇸 Seville 8 km Countdown",
+      "message": "Continuing his steady injury rehabilitation, Adrián logged 5.9 km in Week 3 to reach 24.0 km total (96.0% of his 25 km pledge)—just 1.0 km away from completing his monthly target!"
+    }
+  ],
   "week_4": []
 }

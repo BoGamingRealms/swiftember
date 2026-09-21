@@ -1,0 +1,101 @@
+Rank	Athlete	Distance	Runs	Longest Run	Average Pace	Elev Gain
+1	Rich Grover Rich Grover	93.0 km	7	21.0 km	4:28 /km	409 m
+2	Jack Dean Jack Dean	74.3 km	6	32.0 km	5:11 /km	494 m
+3	Donald Skoyles Donald Skoyles	68.7 km	11	8.6 km	5:48 /km	424 m
+4	Shaun Dolby Shaun Dolby	68.2 km	5	32.0 km	4:25 /km	280 m
+5	Christopher Bainbridge	61.3 km	6	19.1 km	6:10 /km	326 m
+6	Penelope Barber Penelope Barber	53.0 km	9	12.9 km	6:31 /km	350 m
+7	Jack Roughan Jack Roughan	51.3 km	6	21.1 km	5:32 /km	176 m
+8	Adam Bown	50.5 km	5	11.1 km	4:58 /km	381 m
+9	Kristian Gath	50.5 km	1	50.5 km	8:29 /km	949 m
+10	Ian Allen 🏳️🌈	49.6 km	5	12.1 km	5:55 /km	456 m
+11	Ady Pendred 🇬🇧 Ady Pendred 🇬🇧	49.1 km	3	27.8 km	5:18 /km	286 m
+12	Alexander Brown Alexander Brown	48.3 km	5	12.2 km	5:27 /km	319 m
+13	Matt D'Silva Matt D'Silva	44.8 km	6	9.0 km	5:52 /km	522 m
+14	Jake Colbourn Jake Colbourn	43.8 km	8	12.2 km	5:59 /km	671 m
+15	Mark Blakeman	42.9 km	5	10.6 km	5:40 /km	247 m
+16	Marta Leucci	41.2 km	7	7.6 km	5:48 /km	340 m
+17	Mark Chalmers 🏳️🌈 🏃♂️ Mark Chalmers 🏳️🌈 🏃♂️	40.6 km	8	5.1 km	4:20 /km	262 m
+18	Bo Wang Bo Wang	39.8 km	4	11.0 km	5:33 /km	142 m
+19	Joe Pinder	39.5 km	4	10.6 km	6:03 /km	286 m
+20	Minjun Sung Minjun Sung	37.6 km	7	12.5 km	6:53 /km	522 m
+21	Sunin Patel Sunin Patel	37.0 km	3	14.5 km	5:00 /km	222 m
+22	José Alós José Alós	36.0 km	3	16.7 km	5:18 /km	256 m
+23	Lewis Gardner Lewis Gardner	34.7 km	3	15.0 km	5:30 /km	358 m
+24	Josh Savage Josh Savage	33.8 km	3	13.0 km	5:08 /km	527 m
+25	Daniel Bridge Daniel Bridge	32.4 km	4	12.0 km	5:13 /km	161 m
+26	John Simpson John Simpson	32.3 km	3	11.7 km	5:02 /km	154 m
+27	Richard Wilkes Richard Wilkes	32.3 km	3	12.2 km	5:55 /km	213 m
+28	stephen hopkins 🏃🚣♀️🚴🏻🏋️💤	30.1 km	6	8.6 km	6:24 /km	222 m
+29	Richard Lakin	29.9 km	3	10.6 km	6:09 /km	158 m
+30	Gabriel Stirling	29.8 km	5	10.5 km	5:03 /km	76 m
+31	Tom French	29.7 km	4	12.3 km	5:25 /km	192 m
+32	David Stokes	27.3 km	1	27.3 km	8:06 /km	367 m
+33	deepa chhillar	26.8 km	7	6.1 km	7:51 /km	28 m
+34	Quinn Davis	26.1 km	4	9.3 km	5:35 /km	133 m
+35	Alex Meers	25.8 km	4	12.5 km	6:37 /km	176 m
+36	Lee Singleton Lee Singleton	25.6 km	4	11.9 km	6:00 /km	114 m
+37	Matt Mackinnon-Coleman	25.4 km	3	10.1 km	5:27 /km	205 m
+38	Sam Gower	23.7 km	5	10.0 km	5:30 /km	104 m
+39	Warley Sobrinho Warley Sobrinho	23.6 km	2	13.6 km	5:39 /km	135 m
+40	James Chaundy	23.4 km	3	10.0 km	5:27 /km	134 m
+41	Marcin Saltarski	23.3 km	2	13.4 km	6:05 /km	296 m
+42	Laura Rafailov	23.0 km	3	10.0 km	6:36 /km	131 m
+43	Farrell Baker Farrell Baker	22.6 km	3	10.1 km	4:56 /km	90 m
+44	tom dawson tom dawson	21.5 km	2	11.1 km	5:23 /km	112 m
+45	Pete Hall Pete Hall	21.3 km	3	10.0 km	5:29 /km	96 m
+46	Helen Williams	21.0 km	3	9.5 km	6:23 /km	284 m
+47	James S James S	20.7 km	3	10.3 km	5:06 /km	116 m
+48	Michael Lakin	20.7 km	2	10.6 km	6:10 /km	95 m
+49	Sam Lewis Sam Lewis	20.6 km	3	10.0 km	5:39 /km	139 m
+50	Ross Newman Ross Newman	20.4 km	3	10.0 km	6:17 /km	146 m
+51	Tim Reeves	20.3 km	2	11.0 km	5:58 /km	163 m
+52	David Waters	20.1 km	2	10.1 km	8:23 /km	52 m
+53	Daniel Brown Daniel Brown	20.0 km	2	10.8 km	5:00 /km	191 m
+54	Anthony Morgan Anthony Morgan	19.8 km	2	10.0 km	5:23 /km	74 m
+55	jimmy simpson jimmy simpson	19.1 km	3	9.0 km	6:16 /km	80 m
+56	Andrea Bohn	18.1 km	7	5.1 km	7:25 /km	6 m
+57	Benjamin Lane	18.0 km	2	10.0 km	4:48 /km	87 m
+58	Scott Brough Scott Brough	17.7 km	2	10.1 km	5:46 /km	87 m
+59	Joe Hanson Joe Hanson	17.5 km	3	6.7 km	5:51 /km	60 m
+60	Alex Anthony Alex Anthony	17.4 km	2	9.4 km	5:42 /km	178 m
+61	Chris Parry Chris Parry	17.0 km	2	12.0 km	5:28 /km	132 m
+62	Tommy Hill	16.9 km	3	7.2 km	6:27 /km	263 m
+63	Edmund Lawrence	16.8 km	4	5.0 km	7:39 /km	131 m
+64	Jon Williams Jon Williams	16.5 km	2	10.0 km	5:38 /km	73 m
+65	David Purnell	16.5 km	3	6.2 km	6:20 /km	80 m
+66	Ed Rouse Ed Rouse	15.6 km	2	10.4 km	6:47 /km	87 m
+67	Paddy . Paddy .	15.6 km	2	9.0 km	6:23 /km	165 m
+68	Patrick Ryan Patrick Ryan	15.3 km	2	10.3 km	6:05 /km	157 m
+69	Benjani Morgan Benjani Morgan	15.1 km	3	5.1 km	4:45 /km	42 m
+70	Matthew Rushton Matthew Rushton	15.0 km	2	10.0 km	5:29 /km	142 m
+71	Kayden Schumacher Kayden Schumacher	14.8 km	2	9.9 km	5:14 /km	--
+72	Richard Doherty Richard Doherty	11.7 km	1	11.7 km	5:32 /km	11 m
+73	Ramani Mutyam Ramani Mutyam	11.0 km	3	5.0 km	8:41 /km	27 m
+74	Owen Lee	10.5 km	2	5.5 km	6:38 /km	108 m
+75	Hasan B. Hasan B.	10.2 km	2	5.1 km	5:34 /km	15 m
+76	Martin Tedd Martin Tedd	10.1 km	2	6.1 km	5:53 /km	83 m
+77	Reb Kean Reb Kean	10.1 km	1	10.1 km	6:43 /km	102 m
+78	Alice Wilkinson Alice Wilkinson	10.0 km	2	5.0 km	6:07 /km	62 m
+79	Bradley M 🏳️🌈💪🏃♂️ Bradley M 🏳️🌈💪🏃♂️	10.0 km	2	5.0 km	6:28 /km	92 m
+80	Simon Lord Simon Lord	10.0 km	1	10.0 km	4:40 /km	10 m
+81	Tom Lingard	10.0 km	1	10.0 km	6:12 /km	24 m
+82	Phil Deeley Phil Deeley	9.1 km	3	5.1 km	6:08 /km	27 m
+83	John Bond	8.9 km	3	3.1 km	8:02 /km	--
+84	Nick Millward	8.8 km	2	5.6 km	4:55 /km	44 m
+85	Harvey Degan Harvey Degan	8.6 km	2	5.0 km	5:57 /km	33 m
+86	Rimon Ali Rimon Ali	19.03 km	2	5.0 km	6:37 /km	30 m
+87	Keir Hamilton Keir Hamilton	7.8 km	1	7.8 km	4:54 /km	24 m
+88	Huw Rossiter	7.6 km	1	7.6 km	5:33 /km	56 m
+89	Jamie Lockey Jamie Lockey	7.3 km	1	7.3 km	5:35 /km	38 m
+90	Lex Hooper Lex Hooper	6.6 km	1	6.6 km	5:36 /km	24 m
+91	Joshua Burnett Joshua Burnett	6.4 km	1	6.4 km	5:58 /km	55 m
+92	Eoin Funnell Eoin Funnell	6.3 km	2	3.2 km	3:56 /km	43 m
+93	Luke Turner-Dawson Luke Turner-Dawson	6.3 km	1	6.3 km	5:42 /km	48 m
+94	James Horne James Horne	6.2 km	1	6.2 km	5:08 /km	--
+95	Adrián Nieves Adrián Nieves	5.9 km	1	5.9 km	6:00 /km	49 m
+96	Chris W Chris W	5.7 km	1	5.7 km	6:45 /km	49 m
+97	Paul Gardiner Paul Gardiner	5.7 km	1	5.7 km	5:39 /km	61 m
+98	Tom Garlick Tom Garlick	5.6 km	1	5.6 km	5:22 /km	12 m
+99	Dilly Brainch Dilly Brainch	5.6 km	3	2.8 km	11:59 /km	102 m
+100	Michael Carthew Michael Carthew	5.4 km	1	5.4 km	6:11 /km	33 m
