@@ -596,12 +596,12 @@ def generate_html_report(matched_runners, week_num=1, badge_subtitle="Official S
         shout_tag_font = "14px"
         shout_msg_font = "19px"
         shout_footer_font = "14px"
-        berlin_headline_font = "21px"
+        berlin_headline_font = "22px"
         berlin_intro_font = "13px"
-        berlin_name_font = "15px"
-        berlin_tag_font = "11.5px"
-        berlin_msg_font = "12.5px"
-        berlin_footer_font = "12.5px"
+        berlin_name_font = "15.5px"
+        berlin_tag_font = "11.8px"
+        berlin_msg_font = "13.2px"
+        berlin_footer_font = "13px"
     else: # compact preset
         body_font = "10px"
         table_font = "9px"
@@ -633,11 +633,11 @@ def generate_html_report(matched_runners, week_num=1, badge_subtitle="Official S
 
     shout_card_pad = "10px 16px"
     shout_grid_gap = "10px"
-    berlin_hero_pad = "12px 18px"
-    berlin_hero_mb = "11px"
-    berlin_grid_gap = "8px"
-    berlin_card_pad = "8px 12px"
-    berlin_footer_pad = "8px 14px"
+    berlin_hero_pad = "11px 16px"
+    berlin_hero_mb = "9px"
+    berlin_grid_gap = "7px"
+    berlin_card_pad = "7.5px 11px"
+    berlin_footer_pad = "7px 14px"
     pride_pill_font = "16px"
     pride_pill_pad = "4.5px 12px"
 
@@ -865,9 +865,9 @@ def generate_html_report(matched_runners, week_num=1, badge_subtitle="Official S
         .berlin-pill {{
             background: #dc2626;
             color: #ffffff;
-            font-size: 10px;
+            font-size: 11.5px;
             font-weight: 800;
-            padding: 2.5px 8.5px;
+            padding: 3px 9px;
             border-radius: 5px;
             letter-spacing: 0.5px;
             text-transform: uppercase;
@@ -875,9 +875,9 @@ def generate_html_report(matched_runners, week_num=1, badge_subtitle="Official S
         .berlin-date-pill {{
             background: rgba(255, 255, 255, 0.15);
             color: #fde047;
-            font-size: 10px;
+            font-size: 11.5px;
             font-weight: 700;
-            padding: 2.5px 8.5px;
+            padding: 3px 9px;
             border-radius: 5px;
             letter-spacing: 0.3px;
         }}
@@ -934,7 +934,7 @@ def generate_html_report(matched_runners, week_num=1, badge_subtitle="Official S
             color: #0369a1;
             font-size: {berlin_tag_font};
             font-weight: 700;
-            padding: 2px 7px;
+            padding: 2.5px 8px;
             border-radius: 5px;
             white-space: nowrap;
             border: 1px solid #bae6fd;
@@ -942,7 +942,7 @@ def generate_html_report(matched_runners, week_num=1, badge_subtitle="Official S
         .berlin-card-msg {{
             font-size: {berlin_msg_font};
             color: #334155;
-            line-height: 1.3;
+            line-height: 1.34;
         }}
         .berlin-footer {{
             text-align: center;
