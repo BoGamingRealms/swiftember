@@ -638,8 +638,8 @@ def generate_html_report(matched_runners, week_num=1, badge_subtitle="Official S
     berlin_grid_gap = "8px"
     berlin_card_pad = "8px 12px"
     berlin_footer_pad = "8px 14px"
-    pride_pill_font = "12px"
-    pride_pill_pad = "3px 9px"
+    pride_pill_font = "16px"
+    pride_pill_pad = "4.5px 12px"
 
     card_dist_label = "Distance Logged (MTD)" if week_num > 1 else "Distance Logged"
     card_dist_sub = f"{pct_total_month:.1f}% of Monthly Goal ({total_week_logged:,.1f} km in W{week_num})" if week_num > 1 else f"{pct_total_month:.1f}% of Monthly Goal"
@@ -958,9 +958,9 @@ def generate_html_report(matched_runners, week_num=1, badge_subtitle="Official S
         .pride-runners-grid {{
             display: flex;
             flex-wrap: wrap;
-            gap: 4px 6px;
-            margin-top: 6px;
-            padding-top: 6px;
+            gap: 6px 8px;
+            margin-top: 10px;
+            padding-top: 10px;
             border-top: 1px dashed #bae6fd;
         }}
         .pride-runner-pill {{
@@ -968,14 +968,14 @@ def generate_html_report(matched_runners, week_num=1, badge_subtitle="Official S
             border: 1px solid #bfdbfe;
             color: #1e3a8a;
             font-size: {pride_pill_font};
-            font-weight: 600;
+            font-weight: 700;
             padding: {pride_pill_pad};
-            border-radius: 4px;
+            border-radius: 6px;
             display: inline-flex;
             align-items: center;
-            gap: 3.5px;
+            gap: 5px;
             white-space: nowrap;
-            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
         }}
         .page-break {{ page-break-before: always; }}
         .footer {{ font-size: 8px; color: #94a3b8; text-align: center; margin-top: 6px; border-top: 1px solid #e2e8f0; padding-top: 4px; }}
