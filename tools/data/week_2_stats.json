@@ -27,13 +27,13 @@
       "longest": 42.6,
       "pace": "7:40 /km",
       "elev": "272 m",
-      "monthly_target": 506.0,
-      "pct_weekly": 71.15,
-      "pct_monthly": 32.51,
-      "status": "🟡 Slightly Behind",
+      "monthly_target": 200.0,
+      "pct_weekly": 180.0,
+      "pct_monthly": 82.25,
+      "status": "🟢 Ahead",
       "cum_distance": 164.5,
       "cum_runs": 12,
-      "cum_status": "🟡 Slightly Behind"
+      "cum_status": "🟢 Ahead"
     },
     "Alice Wilkinson": {
       "distance": 83.0,
@@ -167,13 +167,13 @@
       "longest": 21.3,
       "pace": "5:16 /km",
       "elev": "290 m",
-      "monthly_target": 75.0,
-      "pct_weekly": 218.67,
-      "pct_monthly": 54.67,
+      "monthly_target": 60.0,
+      "pct_weekly": 273.33,
+      "pct_monthly": 68.33,
       "status": "🟢 Ahead",
       "cum_distance": 41.0,
       "cum_runs": 3,
-      "cum_status": "🟢 On Track"
+      "cum_status": "🟢 Ahead"
     },
     "Benjamin Lane": {
       "distance": 40.1,
@@ -237,13 +237,13 @@
       "longest": 21.1,
       "pace": "5:44 /km",
       "elev": "244 m",
-      "monthly_target": 200.0,
-      "pct_weekly": 75.8,
-      "pct_monthly": 48.25,
-      "status": "🟡 Slightly Behind",
+      "monthly_target": 150.0,
+      "pct_weekly": 101.07,
+      "pct_monthly": 64.33,
+      "status": "🟢 On Track",
       "cum_distance": 96.5,
       "cum_runs": 8,
-      "cum_status": "🟢 On Track"
+      "cum_status": "🟢 Ahead"
     },
     "Barry Cassidy": {
       "distance": 37.0,
@@ -251,13 +251,13 @@
       "longest": 19.0,
       "pace": "5:04 /km",
       "elev": "143 m",
-      "monthly_target": 125.0,
-      "pct_weekly": 118.4,
-      "pct_monthly": 53.28,
+      "monthly_target": 80.0,
+      "pct_weekly": 185.0,
+      "pct_monthly": 83.25,
       "status": "🟢 Ahead",
       "cum_distance": 66.6,
       "cum_runs": 7,
-      "cum_status": "🟢 On Track"
+      "cum_status": "🟢 Ahead"
     },
     "Adam Bown": {
       "distance": 33.5,
@@ -489,13 +489,13 @@
       "longest": 12.8,
       "pace": "5:55 /km",
       "elev": "155 m",
-      "monthly_target": 150.0,
-      "pct_weekly": 55.2,
-      "pct_monthly": 38.54,
-      "status": "🔴 Behind",
+      "monthly_target": 75.0,
+      "pct_weekly": 110.4,
+      "pct_monthly": 77.08,
+      "status": "🟢 Ahead",
       "cum_distance": 57.81,
       "cum_runs": 3,
-      "cum_status": "🟡 Slightly Behind"
+      "cum_status": "🟢 Ahead"
     },
     "Jimmy Simpson": {
       "distance": 20.7,
@@ -503,13 +503,13 @@
       "longest": 5.7,
       "pace": "6:58 /km",
       "elev": "45 m",
-      "monthly_target": 100.0,
-      "pct_weekly": 82.8,
-      "pct_monthly": 40.5,
-      "status": "🟡 Slightly Behind",
+      "monthly_target": 75.0,
+      "pct_weekly": 110.4,
+      "pct_monthly": 54.0,
+      "status": "🟢 Ahead",
       "cum_distance": 40.5,
       "cum_runs": 7,
-      "cum_status": "🟡 Slightly Behind"
+      "cum_status": "🟢 On Track"
     },
     "Jon Williams": {
       "distance": 20.0,
@@ -545,13 +545,13 @@
       "longest": 9.9,
       "pace": "5:57 /km",
       "elev": "96 m",
-      "monthly_target": 50.0,
-      "pct_weekly": 145.6,
-      "pct_monthly": 54.6,
+      "monthly_target": 35.0,
+      "pct_weekly": 208.0,
+      "pct_monthly": 78.0,
       "status": "🟢 Ahead",
       "cum_distance": 27.3,
       "cum_runs": 3,
-      "cum_status": "🟢 On Track"
+      "cum_status": "🟢 Ahead"
     },
     "Lex Hooper": {
       "distance": 18.1,
@@ -559,13 +559,13 @@
       "longest": 7.0,
       "pace": "6:41 /km",
       "elev": "108 m",
-      "monthly_target": 50.0,
-      "pct_weekly": 144.8,
-      "pct_monthly": 49.64,
+      "monthly_target": 40.0,
+      "pct_weekly": 181.0,
+      "pct_monthly": 62.05,
       "status": "🟢 Ahead",
       "cum_distance": 24.82,
       "cum_runs": 4,
-      "cum_status": "🟢 On Track"
+      "cum_status": "🟢 Ahead"
     },
     "James S": {
       "distance": 17.6,
@@ -601,9 +601,9 @@
       "longest": 8.3,
       "pace": "6:22 /km",
       "elev": "128 m",
-      "monthly_target": 50.0,
-      "pct_weekly": 118.4,
-      "pct_monthly": 61.8,
+      "monthly_target": 40.0,
+      "pct_weekly": 148.0,
+      "pct_monthly": 77.25,
       "status": "🟢 Ahead",
       "cum_distance": 30.9,
       "cum_runs": 4,
@@ -713,13 +713,13 @@
       "longest": 7.0,
       "pace": "7:27 /km",
       "elev": "12 m",
-      "monthly_target": 100.0,
-      "pct_weekly": 28.0,
-      "pct_monthly": 30.8,
-      "status": "🔴 Behind",
+      "monthly_target": 40.0,
+      "pct_weekly": 70.0,
+      "pct_monthly": 77.0,
+      "status": "🟡 Slightly Behind",
       "cum_distance": 30.8,
       "cum_runs": 3,
-      "cum_status": "🟡 Slightly Behind"
+      "cum_status": "🟢 Ahead"
     },
     "Dean Haycock": {
       "distance": 4.97,
@@ -727,13 +727,13 @@
       "longest": 4.97,
       "pace": "-",
       "elev": "-",
-      "monthly_target": 25.0,
-      "pct_weekly": 79.52,
-      "pct_monthly": 19.88,
-      "status": "🟡 Slightly Behind",
+      "monthly_target": 10.0,
+      "pct_weekly": 198.8,
+      "pct_monthly": 49.7,
+      "status": "🟢 Ahead",
       "cum_distance": 4.97,
       "cum_runs": 1,
-      "cum_status": "🔴 Behind"
+      "cum_status": "🟢 On Track"
     },
     "Rimon Ali": {
       "distance": 15.93,
@@ -755,13 +755,13 @@
       "longest": 6.13,
       "pace": "-",
       "elev": "-",
-      "monthly_target": 25.0,
-      "pct_weekly": 98.08,
-      "pct_monthly": 49.96,
-      "status": "🟢 On Track",
+      "monthly_target": 20.0,
+      "pct_weekly": 122.6,
+      "pct_monthly": 62.45,
+      "status": "🟢 Ahead",
       "cum_distance": 12.49,
       "cum_runs": 2,
-      "cum_status": "🟢 On Track"
+      "cum_status": "🟢 Ahead"
     },
     "Neesa": {
       "distance": 38.0,
@@ -783,9 +783,9 @@
       "longest": 0.0,
       "pace": "-",
       "elev": "-",
-      "monthly_target": 25.0,
+      "monthly_target": 20.0,
       "pct_weekly": 0.0,
-      "pct_monthly": 12.04,
+      "pct_monthly": 15.05,
       "status": "⚪️ 0 km Logged",
       "cum_distance": 3.01,
       "cum_runs": 1,
@@ -811,13 +811,13 @@
       "longest": 0.0,
       "pace": "-",
       "elev": "-",
-      "monthly_target": 50.0,
+      "monthly_target": 30.0,
       "pct_weekly": 0.0,
-      "pct_monthly": 34.6,
+      "pct_monthly": 57.67,
       "status": "⚪️ 0 km Logged",
       "cum_distance": 17.3,
       "cum_runs": 2,
-      "cum_status": "🟡 Slightly Behind"
+      "cum_status": "🟢 Ahead"
     },
     "Ibrahim Subdurally-Plon": {
       "distance": 0.0,
@@ -825,13 +825,13 @@
       "longest": 0.0,
       "pace": "-",
       "elev": "-",
-      "monthly_target": 50.0,
+      "monthly_target": 20.0,
       "pct_weekly": 0.0,
-      "pct_monthly": 31.8,
+      "pct_monthly": 79.5,
       "status": "⚪️ 0 km Logged",
       "cum_distance": 15.9,
       "cum_runs": 2,
-      "cum_status": "🟡 Slightly Behind"
+      "cum_status": "🟢 Ahead"
     },
     "James Evans": {
       "distance": 0.0,
@@ -895,13 +895,13 @@
       "longest": 0.0,
       "pace": "-",
       "elev": "-",
-      "monthly_target": 75.0,
+      "monthly_target": 25.0,
       "pct_weekly": 0.0,
-      "pct_monthly": 13.33,
+      "pct_monthly": 40.0,
       "status": "⚪️ 0 km Logged",
       "cum_distance": 10.0,
       "cum_runs": 2,
-      "cum_status": "🔴 Behind"
+      "cum_status": "🟡 Slightly Behind"
     }
   }
 }
