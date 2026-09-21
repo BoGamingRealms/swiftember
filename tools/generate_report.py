@@ -476,27 +476,72 @@ def generate_html_report(matched_runners, week_num=1, badge_subtitle="Official S
     shoutouts = load_shoutouts(week_num)
     shoutouts_html = ""
     if shoutouts:
-        cards_html = ""
-        for s in shoutouts:
-            tag_html = f'<span class="shoutout-tag">{s["tag"]}</span>' if s.get("tag") else ""
-            cards_html += f"""
-                <div class="shoutout-card">
-                    <div class="shoutout-header">
-                        <span class="shoutout-name">{s['name']}</span>
-                        {tag_html}
+        if isinstance(shoutouts, dict) and shoutouts.get("type") == "berlin_marathon_special":
+            title = shoutouts.get("title", "🇩🇪 SPECIAL EVENT SPOTLIGHT • BMW BERLIN MARATHON 2026")
+            headline = shoutouts.get("headline", "ALL THE BEST TO OUR 13 BERLIN MARATHON SWIFTS! 🏃‍♂️💨🇩🇪")
+            badge_major = shoutouts.get("badge_major", "🇩🇪 WORLD MARATHON MAJOR")
+            badge_event = shoutouts.get("badge_event", "BMW BERLIN MARATHON 2026 • SUN 27 SEP")
+            intro = shoutouts.get("intro", "")
+            footer_text = shoutouts.get("footer", "")
+            runners = shoutouts.get("runners", [])
+            
+            cards_html = ""
+            for i, s in enumerate(runners):
+                tag_html = f'<span class="berlin-card-tag">{s["tag"]}</span>' if s.get("tag") else ""
+                extra_cls = " berlin-card-full" if (i == len(runners) - 1 and len(runners) % 2 != 0) else ""
+                cards_html += f"""
+                    <div class="berlin-card{extra_cls}">
+                        <div class="berlin-card-header">
+                            <span class="berlin-card-name">🏃 {s['name']}</span>
+                            {tag_html}
+                        </div>
+                        <div class="berlin-card-msg">{s['message']}</div>
                     </div>
-                    <div class="shoutout-msg">{s['message']}</div>
+                """
+            
+            shoutouts_html = f"""
+                <div class="berlin-container">
+                    <div class="berlin-hero">
+                        <div class="berlin-flag-stripe"></div>
+                        <div class="berlin-hero-content">
+                            <div class="berlin-top-row">
+                                <span class="berlin-pill">{badge_major}</span>
+                                <span class="berlin-date-pill">{badge_event}</span>
+                            </div>
+                            <h2 class="berlin-headline">{headline}</h2>
+                            <p class="berlin-intro">{intro}</p>
+                        </div>
+                    </div>
+                    <div class="berlin-grid">
+                        {cards_html}
+                    </div>
+                    <div class="berlin-footer">
+                        {footer_text}
+                    </div>
                 </div>
             """
-        shoutouts_html = f"""
-            <div class="shoutouts-container">
-                <div class="section-title" style="margin-top: 6px; margin-bottom: 12px; font-size: 15px; padding-bottom: 6px;">📣 MEMBER SPOTLIGHT & EVENT RECOGNITIONS</div>
-                <div class="shoutouts-grid">
-                    {cards_html}
+        elif isinstance(shoutouts, list):
+            cards_html = ""
+            for s in shoutouts:
+                tag_html = f'<span class="shoutout-tag">{s["tag"]}</span>' if s.get("tag") else ""
+                cards_html += f"""
+                    <div class="shoutout-card">
+                        <div class="shoutout-header">
+                            <span class="shoutout-name">{s['name']}</span>
+                            {tag_html}
+                        </div>
+                        <div class="shoutout-msg">{s['message']}</div>
+                    </div>
+                """
+            shoutouts_html = f"""
+                <div class="shoutouts-container">
+                    <div class="section-title" style="margin-top: 6px; margin-bottom: 12px; font-size: 15px; padding-bottom: 6px;">📣 MEMBER SPOTLIGHT & EVENT RECOGNITIONS</div>
+                    <div class="shoutouts-grid">
+                        {cards_html}
+                    </div>
+                    <div class="shoutouts-footer">Member highlights and event recognitions will continue in subsequent weekly reports.</div>
                 </div>
-                <div class="shoutouts-footer">Member highlights and event recognitions will continue in subsequent weekly reports.</div>
-            </div>
-        """
+            """
 
     # Font sizing presets (large vs compact)
     if font_size == "large":
@@ -521,6 +566,12 @@ def generate_html_report(matched_runners, week_num=1, badge_subtitle="Official S
         shout_tag_font = "13px"
         shout_msg_font = "15.5px"
         shout_footer_font = "13px"
+        berlin_headline_font = "18px"
+        berlin_intro_font = "12px"
+        berlin_name_font = "13.5px"
+        berlin_tag_font = "10.5px"
+        berlin_msg_font = "11.2px"
+        berlin_footer_font = "11.5px"
     else: # compact preset
         body_font = "10px"
         table_font = "9px"
@@ -543,6 +594,12 @@ def generate_html_report(matched_runners, week_num=1, badge_subtitle="Official S
         shout_tag_font = "7.5px"
         shout_msg_font = "8.5px"
         shout_footer_font = "8.5px"
+        berlin_headline_font = "14px"
+        berlin_intro_font = "9.5px"
+        berlin_name_font = "11px"
+        berlin_tag_font = "8.5px"
+        berlin_msg_font = "9px"
+        berlin_footer_font = "9px"
 
     card_dist_label = "Distance Logged (MTD)" if week_num > 1 else "Distance Logged"
     card_dist_sub = f"{pct_total_month:.1f}% of Monthly Goal ({total_week_logged:,.1f} km in W{week_num})" if week_num > 1 else f"{pct_total_month:.1f}% of Monthly Goal"
@@ -736,6 +793,126 @@ def generate_html_report(matched_runners, week_num=1, badge_subtitle="Official S
             font-style: italic;
             margin-top: 6px;
             margin-bottom: 4px;
+        }}
+        /* Berlin Marathon Special Showcase */
+        .berlin-container {{
+            margin: 0;
+            padding: 0;
+        }}
+        .berlin-hero {{
+            background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 60%, #312e81 100%);
+            border-radius: 9px;
+            overflow: hidden;
+            color: #ffffff;
+            margin-bottom: 9px;
+            box-shadow: 0 4px 12px rgba(15, 23, 42, 0.15);
+            border: 1px solid #334155;
+        }}
+        .berlin-flag-stripe {{
+            height: 5px;
+            background: linear-gradient(90deg, #111827 0%, #111827 33.3%, #dc2626 33.3%, #dc2626 66.6%, #eab308 66.6%, #eab308 100%);
+        }}
+        .berlin-hero-content {{
+            padding: 10px 15px;
+        }}
+        .berlin-top-row {{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 5px;
+        }}
+        .berlin-pill {{
+            background: #dc2626;
+            color: #ffffff;
+            font-size: 10px;
+            font-weight: 800;
+            padding: 2.5px 8.5px;
+            border-radius: 5px;
+            letter-spacing: 0.5px;
+            text-transform: uppercase;
+        }}
+        .berlin-date-pill {{
+            background: rgba(255, 255, 255, 0.15);
+            color: #fde047;
+            font-size: 10px;
+            font-weight: 700;
+            padding: 2.5px 8.5px;
+            border-radius: 5px;
+            letter-spacing: 0.3px;
+        }}
+        .berlin-headline {{
+            margin: 0 0 5px 0;
+            font-size: {berlin_headline_font};
+            font-weight: 800;
+            letter-spacing: -0.4px;
+            color: #ffffff;
+            line-height: 1.2;
+        }}
+        .berlin-intro {{
+            margin: 0;
+            font-size: {berlin_intro_font};
+            color: #cbd5e1;
+            line-height: 1.38;
+        }}
+        .berlin-grid {{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 7px;
+            margin-bottom: 8px;
+        }}
+        .berlin-card {{
+            background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+            border: 1px solid #cbd5e1;
+            border-left: 4.5px solid #2563eb;
+            border-radius: 7px;
+            padding: 6.5px 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.04);
+        }}
+        .berlin-card-full {{
+            grid-column: span 2;
+            background: linear-gradient(135deg, #eff6ff 0%, #f8fafc 100%);
+            border-left: 4.5px solid #d97706;
+        }}
+        .berlin-card-header {{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 2.5px;
+            gap: 8px;
+        }}
+        .berlin-card-name {{
+            font-size: {berlin_name_font};
+            font-weight: 700;
+            color: #1e1b4b;
+        }}
+        .berlin-card-tag {{
+            background: #e0f2fe;
+            color: #0369a1;
+            font-size: {berlin_tag_font};
+            font-weight: 700;
+            padding: 2px 7px;
+            border-radius: 5px;
+            white-space: nowrap;
+            border: 1px solid #bae6fd;
+        }}
+        .berlin-card-msg {{
+            font-size: {berlin_msg_font};
+            color: #334155;
+            line-height: 1.32;
+        }}
+        .berlin-footer {{
+            text-align: center;
+            font-size: {berlin_footer_font};
+            font-weight: 600;
+            color: #475569;
+            background: #f1f5f9;
+            border: 1px solid #e2e8f0;
+            border-radius: 6px;
+            padding: 6px 12px;
+            line-height: 1.35;
         }}
         .page-break {{ page-break-before: always; }}
         .footer {{ font-size: 8px; color: #94a3b8; text-align: center; margin-top: 6px; border-top: 1px solid #e2e8f0; padding-top: 4px; }}

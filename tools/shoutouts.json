@@ -64,47 +64,81 @@
       "message": "Congratulations to Jake on finishing his 50-mile Ultra Marathon on September 12th. His week included an 81.9 km long run, 109.0 km total distance, and 1,731 m of elevation gain, earning Mountain Goat honors."
     }
   ],
-  "week_3": [
-    {
-      "name": "Richard Lakin",
-      "tag": "🎯 Monthly Target Completed",
-      "message": "Richard reached his 100 km monthly challenge pledge with a week to spare, logging 29.9 km in Week 3 to reach 102.8 km (102.8%). A fantastic effort across the first three weeks!"
-    },
-    {
-      "name": "Mark Blakeman",
-      "tag": "🎯 Monthly Target Completed",
-      "message": "Mark hit his ambitious 150 km monthly target in Week 3, recording 42.9 km across 5 runs to reach exactly 150.0 km (100.0%). Excellent consistency and pacing throughout the challenge."
-    },
-    {
-      "name": "Andrea Bohn",
-      "tag": "🌟 Rising Swift & Target Smashed",
-      "message": "Andrea logged an outstanding 18.1 km across 7 separate runs in Week 3, reaching 42.8 km total (122.3% of her 35 km target) and claiming Week 3 Rising Swift honors!"
-    },
-    {
-      "name": "Jack Dean",
-      "tag": "🏃‍♂️ Chicago Marathon Build & Road Warrior",
-      "message": "Jack led all registered Swiftember runners with 74.3 km this week—including a 32.0 km long run—taking Week 3 Road Warrior honors and advancing to 183.1 km MTD (91.6%)."
-    },
-    {
-      "name": "Daniel Bridge",
-      "tag": "🎯 Goal Setter Award",
-      "message": "Daniel produced a stellar 32.4 km week over 4 runs, achieving 172.8% of his weekly quota and earning the Goal Setter title to bring his MTD total to 62.5 km (83.3%)."
-    },
-    {
-      "name": "Jake Colbourn",
-      "tag": "⛰ Mountain Goat",
-      "message": "Following his 50-mile ultra, Jake maintained strong momentum with 43.8 km and 671 m of elevation gain across 8 runs, securing Mountain Goat honors for Week 3."
-    },
-    {
-      "name": "Benjamin Lane",
-      "tag": "⚡️ Speed Demon",
-      "message": "Benjamin set the week's benchmark on pace with a brisk 4:48 /km average across 18.0 km, earning the Speed Demon award and reaching 75.4 km MTD (75.4%)."
-    },
-    {
-      "name": "Adrián Nieves",
-      "tag": "🇪🇸 Seville 8 km Countdown",
-      "message": "Continuing his steady injury rehabilitation, Adrián logged 5.9 km in Week 3 to reach 24.0 km total (96.0% of his 25 km pledge)—just 1.0 km away from completing his monthly target!"
-    }
-  ],
+  "week_3": {
+    "type": "berlin_marathon_special",
+    "title": "🇩🇪 SPECIAL EVENT SPOTLIGHT • BMW BERLIN MARATHON 2026",
+    "headline": "ALL THE BEST TO OUR 13 BERLIN MARATHON SWIFTS! 🏃‍♂️💨🇩🇪",
+    "badge_major": "🇩🇪 WORLD MARATHON MAJOR",
+    "badge_event": "BMW BERLIN MARATHON 2026 • SUN 27 SEP",
+    "intro": "A huge club shoutout and best wishes to all 13 Birmingham Swifts heading to Germany this weekend to conquer the iconic 42.195 km Berlin course! From marathon debutants to World Marathon Major star chasers and Boston qualifiers, the entire club is cheering you across the finish line through the Brandenburg Gate!",
+    "footer": "🇩🇪 Gute Reise & smash those 42.195 km through the streets of Berlin! The whole club will be live tracking and cheering you on! 🏅",
+    "runners": [
+      {
+        "name": "Mark Blakeman",
+        "tag": "⭐ 3rd Major Star & Boston BQ",
+        "message": "Chasing his 3rd World Marathon Major star and working hard to secure a Good for Age qualifying time for the Boston Marathon."
+      },
+      {
+        "name": "Alexander Brown",
+        "tag": "💪 Comeback & Final Push",
+        "message": "Overcame tough difficulties during marathon training and picked himself right back up for the final push into Berlin."
+      },
+      {
+        "name": "Bo Wang",
+        "tag": "⭐ 3rd Major Star Hunt",
+        "message": "Another dedicated marathoner on the hunt for his 3rd World Marathon Major star through the streets of Berlin."
+      },
+      {
+        "name": "Chris Bainbridge",
+        "tag": "👑 Top Swiftember Berliner",
+        "message": "Battled through a painful injury during training, bounced back impressively, and logged the most distance in Swiftember among all Berlin runners."
+      },
+      {
+        "name": "Helen Williams",
+        "tag": "🇫🇷 Paris & Berlin Double 🇩🇪",
+        "message": "Taking on her second full marathon of the year following the Paris Marathon earlier this spring. What a phenomenal achievement!"
+      },
+      {
+        "name": "Ian Allen",
+        "tag": "🏃 Race Machine & High Mileage",
+        "message": "A true half and full marathon junkie who trains relentlessly and has lined up for the most races among all our Berlin runners."
+      },
+      {
+        "name": "Joe Pinder",
+        "tag": "🧘 Calm, Steady & Composed",
+        "message": "Calm, composed, and steady—quietly banking huge miles and putting tremendous effort into his Berlin Marathon build."
+      },
+      {
+        "name": "Richard Lakin",
+        "tag": "🗽 2nd Major (NYC & Berlin)",
+        "message": "Temporarily traded his love for beer for marathon miles! Berlin is his second World Marathon Major after New York last autumn."
+      },
+      {
+        "name": "Michael Lakin",
+        "tag": "🔥 2nd Marathon & Pure Grit",
+        "message": "Berlin is also his second full marathon after New York last year—proving time and again that he never gives up when the going gets tough."
+      },
+      {
+        "name": "Josh Savage",
+        "tag": "👑 Club Chair & True Grit",
+        "message": "Our club chair who likes to moan and complain a lot in the group chat, but backed it up with massive dedication and effort in his marathon training!"
+      },
+      {
+        "name": "Matthew Rushton",
+        "tag": "🚀 Berlin Debutant",
+        "message": "A newcomer to the Berlin Marathon who caught up nicely during training and built wonderful momentum heading into race weekend."
+      },
+      {
+        "name": "Tim Reeves",
+        "tag": "🌟 First Full Marathon",
+        "message": "Tackling his very first full marathon! Put so much hard work into this marathon training block and will definitely smash Berlin."
+      },
+      {
+        "name": "Richard Wilkes",
+        "tag": "🥐 Pastry & Meat Fueled",
+        "message": "Proud pastry and meat lover—and grueling marathon training miles haven't changed that dietary fuel strategy one single bit!"
+      }
+    ]
+  },
   "week_4": []
 }
