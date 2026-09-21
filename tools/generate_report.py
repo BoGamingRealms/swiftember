@@ -519,11 +519,12 @@ def generate_html_report(matched_runners, week_num=1, badge_subtitle="Official S
                         </div>
                     """
                 additional_html = f"""
-                    <div class="shoutouts-container" style="margin-top: 6px;">
-                        <div class="section-title" style="margin-top: 2px; margin-bottom: 5px; font-size: 12px; padding-bottom: 3px;">📣 MORE MEMBER SPOTLIGHTS & EVENT RECOGNITIONS</div>
+                    <div class="shoutouts-container">
+                        <div class="section-title" style="margin-top: 6px; margin-bottom: 12px; font-size: 15px; padding-bottom: 6px;">📣 MEMBER SPOTLIGHT & EVENT RECOGNITIONS</div>
                         <div class="shoutouts-grid">
                             {add_cards_html}
                         </div>
+                        <div class="shoutouts-footer">Member highlights and event recognitions will continue in subsequent weekly reports.</div>
                     </div>
                 """
 
@@ -547,7 +548,7 @@ def generate_html_report(matched_runners, week_num=1, badge_subtitle="Official S
                         {footer_text}
                     </div>
                 </div>
-                {additional_html}
+                {f'<div class="page-break"></div>{additional_html}' if additional_html else ''}
             """
         elif isinstance(shoutouts, list):
             cards_html = ""
@@ -591,28 +592,16 @@ def generate_html_report(matched_runners, week_num=1, badge_subtitle="Official S
         metric_val_font = "24px"
         metric_lbl_font = "11px"
         metric_sub_font = "10px"
-        if isinstance(shoutouts, dict):
-            shout_name_font = "12px"
-            shout_tag_font = "9.5px"
-            shout_msg_font = "10.2px"
-            shout_footer_font = "9.5px"
-            berlin_headline_font = "16px"
-            berlin_intro_font = "10.5px"
-            berlin_name_font = "12px"
-            berlin_tag_font = "9.5px"
-            berlin_msg_font = "10.2px"
-            berlin_footer_font = "10px"
-        else:
-            shout_name_font = "19px"
-            shout_tag_font = "13px"
-            shout_msg_font = "15.5px"
-            shout_footer_font = "13px"
-            berlin_headline_font = "18px"
-            berlin_intro_font = "12px"
-            berlin_name_font = "13.5px"
-            berlin_tag_font = "10.5px"
-            berlin_msg_font = "11.2px"
-            berlin_footer_font = "11.5px"
+        shout_name_font = "19px"
+        shout_tag_font = "13px"
+        shout_msg_font = "15.5px"
+        shout_footer_font = "13px"
+        berlin_headline_font = "18.5px"
+        berlin_intro_font = "12px"
+        berlin_name_font = "13.5px"
+        berlin_tag_font = "10.5px"
+        berlin_msg_font = "11.2px"
+        berlin_footer_font = "11.5px"
     else: # compact preset
         body_font = "10px"
         table_font = "9px"
@@ -642,15 +631,15 @@ def generate_html_report(matched_runners, week_num=1, badge_subtitle="Official S
         berlin_msg_font = "9px"
         berlin_footer_font = "9px"
 
-    shout_card_pad = "4.5px 9px" if isinstance(shoutouts, dict) else "7px 12px"
-    shout_grid_gap = "4px" if isinstance(shoutouts, dict) else "7px"
-    berlin_hero_pad = "7px 13px" if isinstance(shoutouts, dict) else "10px 15px"
-    berlin_hero_mb = "6px" if isinstance(shoutouts, dict) else "9px"
-    berlin_grid_gap = "4.5px" if isinstance(shoutouts, dict) else "7px"
-    berlin_card_pad = "4.5px 8.5px" if isinstance(shoutouts, dict) else "6.5px 10px"
-    berlin_footer_pad = "4.5px 10px" if isinstance(shoutouts, dict) else "6px 12px"
-    pride_pill_font = "9px" if isinstance(shoutouts, dict) else "10.5px"
-    pride_pill_pad = "1.5px 6px" if isinstance(shoutouts, dict) else "2px 7.5px"
+    shout_card_pad = "8px 14px"
+    shout_grid_gap = "8px"
+    berlin_hero_pad = "10px 15px"
+    berlin_hero_mb = "9px"
+    berlin_grid_gap = "7px"
+    berlin_card_pad = "6.5px 10px"
+    berlin_footer_pad = "6px 12px"
+    pride_pill_font = "11px"
+    pride_pill_pad = "2.5px 8px"
 
     card_dist_label = "Distance Logged (MTD)" if week_num > 1 else "Distance Logged"
     card_dist_sub = f"{pct_total_month:.1f}% of Monthly Goal ({total_week_logged:,.1f} km in W{week_num})" if week_num > 1 else f"{pct_total_month:.1f}% of Monthly Goal"
@@ -969,9 +958,9 @@ def generate_html_report(matched_runners, week_num=1, badge_subtitle="Official S
         .pride-runners-grid {{
             display: flex;
             flex-wrap: wrap;
-            gap: 3px 5px;
-            margin-top: 4px;
-            padding-top: 4px;
+            gap: 4px 6px;
+            margin-top: 6px;
+            padding-top: 6px;
             border-top: 1px dashed #bae6fd;
         }}
         .pride-runner-pill {{
