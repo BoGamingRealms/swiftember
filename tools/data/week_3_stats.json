@@ -657,13 +657,13 @@
       "longest": 5.6,
       "pace": "5:22 /km",
       "elev": "12 m",
-      "monthly_target": 25.0,
-      "pct_weekly": 89.6,
-      "pct_monthly": 62.4,
-      "status": "🟡 Slightly Behind",
+      "monthly_target": 75.0,
+      "pct_weekly": 29.87,
+      "pct_monthly": 20.8,
+      "status": "🔴 Behind",
       "cum_distance": 15.6,
       "cum_runs": 3,
-      "cum_status": "🟡 Slightly Behind"
+      "cum_status": "🔴 Behind"
     },
     "Barry Cassidy": {
       "distance": 0.0,

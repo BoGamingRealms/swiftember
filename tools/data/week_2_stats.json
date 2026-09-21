@@ -895,13 +895,13 @@
       "longest": 0.0,
       "pace": "-",
       "elev": "-",
-      "monthly_target": 25.0,
+      "monthly_target": 75.0,
       "pct_weekly": 0.0,
-      "pct_monthly": 40.0,
+      "pct_monthly": 13.33,
       "status": "⚪️ 0 km Logged",
       "cum_distance": 10.0,
       "cum_runs": 2,
-      "cum_status": "🟡 Slightly Behind"
+      "cum_status": "🔴 Behind"
     }
   }
 }
