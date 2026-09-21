@@ -519,8 +519,8 @@ def generate_html_report(matched_runners, week_num=1, badge_subtitle="Official S
                         </div>
                     """
                 additional_html = f"""
-                    <div class="shoutouts-container" style="margin-top: 12px;">
-                        <div class="section-title" style="margin-top: 4px; margin-bottom: 7px; font-size: 14px; padding-bottom: 4px;">📣 MORE MEMBER SPOTLIGHTS & EVENT RECOGNITIONS</div>
+                    <div class="shoutouts-container" style="margin-top: 6px;">
+                        <div class="section-title" style="margin-top: 2px; margin-bottom: 5px; font-size: 12px; padding-bottom: 3px;">📣 MORE MEMBER SPOTLIGHTS & EVENT RECOGNITIONS</div>
                         <div class="shoutouts-grid">
                             {add_cards_html}
                         </div>
@@ -591,16 +591,28 @@ def generate_html_report(matched_runners, week_num=1, badge_subtitle="Official S
         metric_val_font = "24px"
         metric_lbl_font = "11px"
         metric_sub_font = "10px"
-        shout_name_font = "19px"
-        shout_tag_font = "13px"
-        shout_msg_font = "15.5px"
-        shout_footer_font = "13px"
-        berlin_headline_font = "18px"
-        berlin_intro_font = "12px"
-        berlin_name_font = "13.5px"
-        berlin_tag_font = "10.5px"
-        berlin_msg_font = "11.2px"
-        berlin_footer_font = "11.5px"
+        if isinstance(shoutouts, dict):
+            shout_name_font = "12px"
+            shout_tag_font = "9.5px"
+            shout_msg_font = "10.2px"
+            shout_footer_font = "9.5px"
+            berlin_headline_font = "16px"
+            berlin_intro_font = "10.5px"
+            berlin_name_font = "12px"
+            berlin_tag_font = "9.5px"
+            berlin_msg_font = "10.2px"
+            berlin_footer_font = "10px"
+        else:
+            shout_name_font = "19px"
+            shout_tag_font = "13px"
+            shout_msg_font = "15.5px"
+            shout_footer_font = "13px"
+            berlin_headline_font = "18px"
+            berlin_intro_font = "12px"
+            berlin_name_font = "13.5px"
+            berlin_tag_font = "10.5px"
+            berlin_msg_font = "11.2px"
+            berlin_footer_font = "11.5px"
     else: # compact preset
         body_font = "10px"
         table_font = "9px"
@@ -629,6 +641,16 @@ def generate_html_report(matched_runners, week_num=1, badge_subtitle="Official S
         berlin_tag_font = "8.5px"
         berlin_msg_font = "9px"
         berlin_footer_font = "9px"
+
+    shout_card_pad = "4.5px 9px" if isinstance(shoutouts, dict) else "7px 12px"
+    shout_grid_gap = "4px" if isinstance(shoutouts, dict) else "7px"
+    berlin_hero_pad = "7px 13px" if isinstance(shoutouts, dict) else "10px 15px"
+    berlin_hero_mb = "6px" if isinstance(shoutouts, dict) else "9px"
+    berlin_grid_gap = "4.5px" if isinstance(shoutouts, dict) else "7px"
+    berlin_card_pad = "4.5px 8.5px" if isinstance(shoutouts, dict) else "6.5px 10px"
+    berlin_footer_pad = "4.5px 10px" if isinstance(shoutouts, dict) else "6px 12px"
+    pride_pill_font = "9px" if isinstance(shoutouts, dict) else "10.5px"
+    pride_pill_pad = "1.5px 6px" if isinstance(shoutouts, dict) else "2px 7.5px"
 
     card_dist_label = "Distance Logged (MTD)" if week_num > 1 else "Distance Logged"
     card_dist_sub = f"{pct_total_month:.1f}% of Monthly Goal ({total_week_logged:,.1f} km in W{week_num})" if week_num > 1 else f"{pct_total_month:.1f}% of Monthly Goal"
@@ -775,15 +797,15 @@ def generate_html_report(matched_runners, week_num=1, badge_subtitle="Official S
         .shoutouts-grid {{
             display: flex;
             flex-direction: column;
-            gap: 7px;
-            margin-bottom: 7px;
+            gap: {shout_grid_gap};
+            margin-bottom: 5px;
         }}
         .shoutout-card {{
             background: linear-gradient(135deg, #f0fdf4 0%, #e0f2fe 100%);
             border: 1px solid #bae6fd;
-            border-left: 5px solid #0284c7;
+            border-left: 4.5px solid #0284c7;
             border-radius: 7px;
-            padding: 7px 12px;
+            padding: {shout_card_pad};
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
@@ -792,8 +814,8 @@ def generate_html_report(matched_runners, week_num=1, badge_subtitle="Official S
             display: flex;
             align-items: center;
             justify-content: space-between;
-            margin-bottom: 3px;
-            gap: 10px;
+            margin-bottom: 2px;
+            gap: 8px;
         }}
         .shoutout-name {{
             font-size: {shout_name_font};
@@ -833,7 +855,7 @@ def generate_html_report(matched_runners, week_num=1, badge_subtitle="Official S
             border-radius: 9px;
             overflow: hidden;
             color: #ffffff;
-            margin-bottom: 9px;
+            margin-bottom: {berlin_hero_mb};
             box-shadow: 0 4px 12px rgba(15, 23, 42, 0.15);
             border: 1px solid #334155;
         }}
@@ -843,13 +865,13 @@ def generate_html_report(matched_runners, week_num=1, badge_subtitle="Official S
             border-bottom: 1px solid rgba(255, 255, 255, 0.25);
         }}
         .berlin-hero-content {{
-            padding: 10px 15px;
+            padding: {berlin_hero_pad};
         }}
         .berlin-top-row {{
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 5px;
+            margin-bottom: 4px;
         }}
         .berlin-pill {{
             background: #dc2626;
@@ -871,7 +893,7 @@ def generate_html_report(matched_runners, week_num=1, badge_subtitle="Official S
             letter-spacing: 0.3px;
         }}
         .berlin-headline {{
-            margin: 0 0 5px 0;
+            margin: 0 0 4px 0;
             font-size: {berlin_headline_font};
             font-weight: 800;
             letter-spacing: -0.4px;
@@ -882,20 +904,20 @@ def generate_html_report(matched_runners, week_num=1, badge_subtitle="Official S
             margin: 0;
             font-size: {berlin_intro_font};
             color: #cbd5e1;
-            line-height: 1.38;
+            line-height: 1.35;
         }}
         .berlin-grid {{
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 7px;
-            margin-bottom: 8px;
+            gap: {berlin_grid_gap};
+            margin-bottom: 6px;
         }}
         .berlin-card {{
             background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
             border: 1px solid #cbd5e1;
             border-left: 4.5px solid #2563eb;
             border-radius: 7px;
-            padding: 6.5px 10px;
+            padding: {berlin_card_pad};
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
@@ -910,7 +932,7 @@ def generate_html_report(matched_runners, week_num=1, badge_subtitle="Official S
             display: flex;
             align-items: center;
             justify-content: space-between;
-            margin-bottom: 2.5px;
+            margin-bottom: 2px;
             gap: 8px;
         }}
         .berlin-card-name {{
@@ -931,7 +953,7 @@ def generate_html_report(matched_runners, week_num=1, badge_subtitle="Official S
         .berlin-card-msg {{
             font-size: {berlin_msg_font};
             color: #334155;
-            line-height: 1.32;
+            line-height: 1.3;
         }}
         .berlin-footer {{
             text-align: center;
@@ -941,24 +963,24 @@ def generate_html_report(matched_runners, week_num=1, badge_subtitle="Official S
             background: #f1f5f9;
             border: 1px solid #e2e8f0;
             border-radius: 6px;
-            padding: 6px 12px;
+            padding: {berlin_footer_pad};
             line-height: 1.35;
         }}
         .pride-runners-grid {{
             display: flex;
             flex-wrap: wrap;
-            gap: 4px 6px;
-            margin-top: 6px;
-            padding-top: 6px;
+            gap: 3px 5px;
+            margin-top: 4px;
+            padding-top: 4px;
             border-top: 1px dashed #bae6fd;
         }}
         .pride-runner-pill {{
             background: #ffffff;
             border: 1px solid #bfdbfe;
             color: #1e3a8a;
-            font-size: 10.5px;
+            font-size: {pride_pill_font};
             font-weight: 600;
-            padding: 2px 7.5px;
+            padding: {pride_pill_pad};
             border-radius: 4px;
             display: inline-flex;
             align-items: center;
