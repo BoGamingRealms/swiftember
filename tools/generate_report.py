@@ -498,6 +498,35 @@ def generate_html_report(matched_runners, week_num=1, badge_subtitle="Official S
                     </div>
                 """
             
+            additional = shoutouts.get("additional_shoutouts", [])
+            additional_html = ""
+            if additional:
+                add_cards_html = ""
+                for s in additional:
+                    tag_html = f'<span class="shoutout-tag">{s["tag"]}</span>' if s.get("tag") else ""
+                    runners_html = ""
+                    if s.get("runners_list"):
+                        pills = "".join([f'<span class="pride-runner-pill">🏃 {r}</span>' for r in s["runners_list"]])
+                        runners_html = f'<div class="pride-runners-grid">{pills}</div>'
+                    add_cards_html += f"""
+                        <div class="shoutout-card">
+                            <div class="shoutout-header">
+                                <span class="shoutout-name">{s['name']}</span>
+                                {tag_html}
+                            </div>
+                            <div class="shoutout-msg">{s['message']}</div>
+                            {runners_html}
+                        </div>
+                    """
+                additional_html = f"""
+                    <div class="shoutouts-container" style="margin-top: 12px;">
+                        <div class="section-title" style="margin-top: 4px; margin-bottom: 7px; font-size: 14px; padding-bottom: 4px;">📣 MORE MEMBER SPOTLIGHTS & EVENT RECOGNITIONS</div>
+                        <div class="shoutouts-grid">
+                            {add_cards_html}
+                        </div>
+                    </div>
+                """
+
             shoutouts_html = f"""
                 <div class="berlin-container">
                     <div class="berlin-hero">
@@ -518,6 +547,7 @@ def generate_html_report(matched_runners, week_num=1, badge_subtitle="Official S
                         {footer_text}
                     </div>
                 </div>
+                {additional_html}
             """
         elif isinstance(shoutouts, list):
             cards_html = ""
@@ -913,6 +943,28 @@ def generate_html_report(matched_runners, week_num=1, badge_subtitle="Official S
             border-radius: 6px;
             padding: 6px 12px;
             line-height: 1.35;
+        }}
+        .pride-runners-grid {{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 4px 6px;
+            margin-top: 6px;
+            padding-top: 6px;
+            border-top: 1px dashed #bae6fd;
+        }}
+        .pride-runner-pill {{
+            background: #ffffff;
+            border: 1px solid #bfdbfe;
+            color: #1e3a8a;
+            font-size: 10.5px;
+            font-weight: 600;
+            padding: 2px 7.5px;
+            border-radius: 4px;
+            display: inline-flex;
+            align-items: center;
+            gap: 3.5px;
+            white-space: nowrap;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
         }}
         .page-break {{ page-break-before: always; }}
         .footer {{ font-size: 8px; color: #94a3b8; text-align: center; margin-top: 6px; border-top: 1px solid #e2e8f0; padding-top: 4px; }}

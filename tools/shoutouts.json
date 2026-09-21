@@ -138,6 +138,39 @@
         "tag": "🥐 Pastry & Meat Fueled",
         "message": "Proud pastry and meat lover, and grueling marathon training miles haven't changed that dietary fuel strategy one single bit!"
       }
+    ],
+    "additional_shoutouts": [
+      {
+        "name": "Birmingham Swifts Pride 10K Team",
+        "tag": "🏳️‍🌈 Birmingham Pride 10K • 24 Runners",
+        "message": "A massive club shoutout and huge congratulations to all 24 Swifts who showed up in force and took on the Birmingham Pride 10K over the weekend with fantastic club spirit and brilliant running!",
+        "runners_list": [
+          "Benjamin Lane",
+          "Kayden Schumacher",
+          "Alexander Brown",
+          "Bo Wang",
+          "Joshua Savage",
+          "Sam Gower",
+          "John Simpson",
+          "Mark Blakeman",
+          "Gabriel Stirling",
+          "Anthony Morgan",
+          "Daniel Bridge",
+          "Lee Singleton",
+          "Christopher Bainbridge",
+          "Joe Pinder",
+          "Ian Allen",
+          "Pete Hall",
+          "Thomas Dawson",
+          "Richard Wilkes",
+          "Scott Brough",
+          "Richard Lakin",
+          "Michael Lakin",
+          "Ryan Harrison",
+          "Laura Rafailov",
+          "David Waters"
+        ]
+      }
     ]
   },
   "week_4": []
